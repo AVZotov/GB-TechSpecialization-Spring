@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5232/userdb
+    username: zotov
+    password: password
+  main:
+    web-application-type: servlet
