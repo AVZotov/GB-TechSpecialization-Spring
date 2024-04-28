@@ -9,13 +9,14 @@
         <module name="lesson02" />
         <module name="lesson03" />
         <module name="lesson01" />
+        <module name="lesson04" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="lesson02" options="-parameters" />
-      <module name="lesson03" options="-parameters" />
+      <module name="lesson02" options="" />
+      <module name="lesson03" options="" />
     </option>
   </component>
 </project>
