@@ -30,9 +30,15 @@ public class CustomerController {
         return dataProcessingService.selectCustomerById(customerId);
     }
 
-    @PostMapping("/customers")
+    @PostMapping("/add")
     public void registerCustomer(@RequestBody CustomerRegistrationRequest customerRegistrationRequest){
         registrationService.registerCustomer(customerRegistrationRequest);
+    }
+
+    @PostMapping("add/param")
+    @ResponseBody
+    public void registerCustomerThroughParams(@RequestParam("name") String name, @RequestParam("age") Integer age){
+        registrationService.registerCustomer(new CustomerRegistrationRequest(name, age));
     }
 
     @DeleteMapping("/customers/{customerId}")
