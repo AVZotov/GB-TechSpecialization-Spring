@@ -1,0 +1,61 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body{background: #ecf1f4; font-family: sans-serif;}
+        h1{text-align: center; color: #fff;
+            font-weight: normal; margin-bottom: 20px;}
+        .table-wrapper {background: #3e3d3d; padding-bottom: 20px; padding-top: 20px;
+            padding-left: 30px; padding-right: 30px; margin: 30px;}
+        table {border-collapse: collapse; border-spacing: 0; color: #fff;
+            border: 2px solid rgb(140 140 140); font: 20px "Open Sans"; margin-bottom: 10px;}
+        th, td {border: 1px solid rgb(160 160 160); padding: 4px 6px;}
+        th {vertical-align: bottom;}
+        input[type="button"]{ background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
+        input[type="button"]:hover{ background: #a4b15c; transition: .6s;}
+        a:link {color: #a4b15c;}
+        a:visited {color: #777d3b;}
+        a:hover {color: #a4b15c;}
+        a:active {color: #800000;}
+    </style>
+</head>
+
+<body>
+<div class="table-wrapper">
+    <div th:switch="${studentList}">
+        <div th:case="*">
+            <h1>Students list</h1>
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>AGE</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="student : ${studentList}">
+                    <td th:text="${student.id}">Student ID</td>
+                    <td th:text="${student.name}">Student Name</td>
+                    <td th:text="${student.email}">Student Email</td>
+                    <td th:text="${student.age}">Student Age</td>
+                    <td><a th:href="@{update/{id}(id=${student.id})}">Update</a></td>
+                    <td><a th:href="@{delete/{id}(id=${student.id})}">Delete</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <a th:href="@{register}">Add new student</a>
+    </div>
+</div>
+</body>
+</html>
+
+

@@ -5,7 +5,9 @@ import lombok.*;
 
 @Entity
 @Table(name = "students")
-@Data public class Student {
+@Data
+@NoArgsConstructor
+public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Setter(AccessLevel.NONE) private Long id;

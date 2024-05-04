@@ -20,6 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url="&quot;http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd&quot;" location="$PROJECT_DIR$" />
+    <resource url="http://www.thymeleaf.org" location="$PROJECT_DIR$" />
+    <resource url="http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="17 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

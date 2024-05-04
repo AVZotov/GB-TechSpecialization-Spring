@@ -46,6 +46,6 @@ public class StudentJPADataAccessService implements StudentDao{
 
     @Override
     public void updateStudent(Student update) {
-
+        studentRepository.save(update);
     }
 }

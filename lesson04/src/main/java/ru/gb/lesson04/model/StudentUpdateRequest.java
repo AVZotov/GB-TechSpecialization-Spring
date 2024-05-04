@@ -1,3 +1,11 @@
 package ru.gb.lesson04.model;
 
-public record StudentUpdateRequest(String name, String email, Integer age) {}
+import lombok.Value;
+
+@Value
+public class StudentUpdateRequest{
+    Long id;
+    String name;
+    String email;
+    Integer age;
+}

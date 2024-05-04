@@ -1,4 +1,10 @@
 package ru.gb.lesson04.model;
 
-public record StudentInsertRequest(String name, String email, Integer age) { }
+import lombok.Data;
 
+@Data
+public class StudentInsertRequest{
+    String name;
+    String email;
+    Integer age;
+}
