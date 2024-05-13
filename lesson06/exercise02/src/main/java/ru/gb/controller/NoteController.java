@@ -32,11 +32,13 @@ public class NoteController {
 
     @PutMapping("notes/add")
     public ResponseEntity<Note> updateNote(@RequestBody Note note) {
-        return new ResponseEntity<>(noteService.addNote(note), HttpStatus.OK);
+
+        return new ResponseEntity<>(noteService.updateNote(note), HttpStatus.OK);
     }
 
     @DeleteMapping("notes/delete/{id}")
     public ResponseEntity<Void> deleteNoteById(@PathVariable Long id) {
+        noteService.deleteNoteById(id);
         return ResponseEntity.ok().build();
     }
 }
