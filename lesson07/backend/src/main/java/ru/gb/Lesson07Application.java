@@ -23,16 +23,17 @@ public class Lesson07Application {
 	CommandLineRunner commandLineRunner (CustomerRepository customerRepository,
 										 PasswordEncoder passwordEncoder){
 		return args -> {
-			Customer admin = new Customer("root", "root@mail.ru", "password");
+			String password = passwordEncoder.encode("password");
+			Customer admin = new Customer("root", "root@mail.ru", password);
 			customerRepository.save(admin);
-			Customer user = new Customer("user", "user@mail.ru", "password");
+			Customer user = new Customer("user", "user@mail.ru", password);
 			customerRepository.save(user);
 
 			for (int i = 0; i < 10; i++) {
 				Faker faker = new Faker();
 				String name = faker.name().fullName();
 				String email = faker.internet().safeEmailAddress();
-				String password = passwordEncoder.encode(UUID.randomUUID().toString());
+				password = passwordEncoder.encode(UUID.randomUUID().toString());
 				Customer customer = new Customer(name, email, password);
 				customerRepository.save(customer);
 			}

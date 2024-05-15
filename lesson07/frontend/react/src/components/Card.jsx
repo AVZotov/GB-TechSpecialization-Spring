@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react';
 
 
-export default function CardWithImage({id}) {
+export default function CardWithImage({id, name}) {
     return (
         <Center py={6}>
             <Box
@@ -48,7 +48,7 @@ export default function CardWithImage({id}) {
                         <Heading fontSize={'2xl'} fontWeight={500} fontFamily={'body'}>
                             {id}
                         </Heading>
-                        <Text color={'gray.500'}>email</Text>
+                        <Text color={'gray.500'}>{name}</Text>
                     </Stack>
 
                     <Stack direction={'row'} justify={'center'} spacing={6}>
