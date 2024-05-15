@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
-
-import static java.time.temporal.ChronoUnit.*;
 
 @Service
 public class JwtUtil {
@@ -26,6 +26,10 @@ public class JwtUtil {
         return issueToken(subject, Map.of("scopes", scopes));
     }
 
+    public String issueToken(String subject, List<String> scopes) {
+        return issueToken(subject, Map.of("scopes", scopes));
+    }
+
     public String issueToken(String subject, Map<String, Object> claims) {
 
         return Jwts
@@ -34,7 +38,7 @@ public class JwtUtil {
                 .subject(subject)
                 .issuer("https://gb.ru/")
                 .issuedAt(Date.from(Instant.now()))
-                .expiration(Date.from(Instant.now().plus(5, YEARS)))
+                .expiration(Date.from(Instant.now().plus(365, ChronoUnit.DAYS)))
                 .signWith(getSigningKey())
                 .compact();
     }

@@ -3,7 +3,7 @@ package ru.gb.domain;
 import java.util.List;
 
 public record CustomerDTO(
-        Integer id,
+        Long id,
         String name,
         String email,
         List<String> roles,

@@ -9,5 +9,15 @@
       "name": "cors.allowed-methods",
       "type": "java.lang.String",
       "description": "Description for cors.allowed-methods."
+    },
+    {
+      "name": "cors.allowed-headers",
+      "type": "java.lang.String",
+      "description": "Description for cors.allowed-headers."
+    },
+    {
+      "name": "cors.exposed-headers",
+      "type": "java.lang.String",
+      "description": "Description for cors.exposed-headers."
     }
   ] }
