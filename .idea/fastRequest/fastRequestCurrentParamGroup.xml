@@ -5,7 +5,7 @@
     <option name="filePath" value="" />
     <option name="method" value="getAllCustomers" />
     <option name="module" value="lesson08" />
-    <option name="originUrl" value="/customers/all" />
+    <option name="originUrl" value="/customers/" />
     <option name="responseParamMap">
       <map>
         <entry key="return">
@@ -16,6 +16,6 @@
       </map>
     </option>
     <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-    <option name="url" value="/customers/all" />
+    <option name="url" value="/customers/" />
   </component>
 </project>

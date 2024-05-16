@@ -29,4 +29,10 @@ public class Lesson08Application {
 			}
 		};
 	}
+
+//	@Bean
+//	@Order(2)
+//	CommandLineRunner commandLineRunner (){
+//
+//	}
 }
