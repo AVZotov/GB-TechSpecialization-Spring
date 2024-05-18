@@ -10,6 +10,7 @@
         <module name="api-gateway" />
         <module name="eureka-server" />
         <module name="customers-microservice" />
+        <module name="testing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="lesson05" options="-parameters" />
       <module name="lesson07" options="-parameters" />
       <module name="lesson08" options="-parameters" />
+      <module name="testing" options="-parameters" />
     </option>
   </component>
 </project>
