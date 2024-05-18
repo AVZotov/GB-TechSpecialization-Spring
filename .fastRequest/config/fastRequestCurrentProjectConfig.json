@@ -13,6 +13,15 @@
 				}
 			],
 			"name":"lesson08"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"customers-microservice"
 		}
 	],
 	"envList":[
@@ -25,7 +34,8 @@
 	"postScript":"",
 	"preScript":"",
 	"projectList":[
-		"lesson08"
+		"lesson08",
+		"customers-microservice"
 	],
 	"syncModel":{
 		"branch":"master",

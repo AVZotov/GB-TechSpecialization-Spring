@@ -7,6 +7,383 @@
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/{id}" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Mr. Porter Pfeffer&quot;,&quot;email&quot;:&quot;kenny.haag@example.com&quot;,&quot;password&quot;:&quot;7l45w9i5zt&quot;}" />
+          <option name="url" value="/customers/{id}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/{id}" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;location&quot; is null" />
+          <option name="url" value="/customers/{id}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/{id}" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;location&quot; is null" />
+          <option name="url" value="/customers/{id}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Shay McKenzie&quot;,&quot;email&quot;:&quot;kenneth.kirlin@example.com&quot;,&quot;password&quot;:&quot;2941ph57puv&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Santos Lehner&quot;,&quot;email&quot;:&quot;bethany.conn@example.com&quot;,&quot;password&quot;:&quot;6di10j0k61z631ix&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Randy Yundt&quot;,&quot;email&quot;:&quot;greg.swaniawski@example.com&quot;,&quot;password&quot;:&quot;7obdbd9oy3&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Alane Harber PhD&quot;,&quot;email&quot;:&quot;oda.cole@example.com&quot;,&quot;password&quot;:&quot;k4wi3fa0905u58&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Merlin Gerhold Sr.&quot;,&quot;email&quot;:&quot;melida.ohara@example.com&quot;,&quot;password&quot;:&quot;5zl9jfzi00w92qj0&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Kendrick Schmitt&quot;,&quot;email&quot;:&quot;william.rempel@example.com&quot;,&quot;password&quot;:&quot;84867ivis98x93i&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Neomi Schmeler&quot;,&quot;email&quot;:&quot;porsha.gislason@example.com&quot;,&quot;password&quot;:&quot;82959tb7r&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Mr. Wiley McDermott&quot;,&quot;email&quot;:&quot;son.nicolas@example.com&quot;,&quot;password&quot;:&quot;12p8zdv74bb&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Nicholas Weissnat&quot;,&quot;email&quot;:&quot;tarah.kub@example.com&quot;,&quot;password&quot;:&quot;33536gno5&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Harlan Gaylord&quot;,&quot;email&quot;:&quot;hipolito.beer@example.com&quot;,&quot;password&quot;:&quot;72gsu0qp0m3&quot;},{&quot;id&quot;:11,&quot;name&quot;:&quot;name_troi3&quot;,&quot;email&quot;:&quot;email_whtpw&quot;,&quot;password&quot;:&quot;password_923ua&quot;}]" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="201" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="addNewCustomer" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;name&quot;: &quot;name_troi3&quot;,&#10;  &quot;email&quot;: &quot;email_whtpw&quot;,&#10;  &quot;password&quot;: &quot;password_923ua&quot;&#10;}" />
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_troi3&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_whtpw&quot;,&#10;  &quot;password&quot;: &quot;No comment,Value =password_923ua&quot;&#10;}" />
+              <option name="method" value="addNewCustomer" />
+              <option name="methodDescription" value="addNewCustomer" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 71&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;password&quot;:&quot;password_923ua&quot;,&quot;name&quot;:&quot;name_troi3&quot;,&quot;email&quot;:&quot;email_whtpw&quot;}&#13;&#10;" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="201" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="addNewCustomer" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;name&quot;: &quot;name_wg66a&quot;,&#10;  &quot;email&quot;: &quot;email_slbn9&quot;,&#10;  &quot;password&quot;: &quot;password_5lv2p&quot;&#10;}" />
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_wg66a&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_slbn9&quot;,&#10;  &quot;password&quot;: &quot;No comment,Value =password_5lv2p&quot;&#10;}" />
+              <option name="method" value="addNewCustomer" />
+              <option name="methodDescription" value="addNewCustomer" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 71&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;password&quot;:&quot;password_5lv2p&quot;,&quot;name&quot;:&quot;name_wg66a&quot;,&quot;email&quot;:&quot;email_slbn9&quot;}&#13;&#10;" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;name_46i2c&quot;,&quot;email&quot;:&quot;email_qzz84&quot;,&quot;password&quot;:&quot;password_rgpq5&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Jacelyn Lowe&quot;,&quot;email&quot;:&quot;arica.hackett@example.com&quot;,&quot;password&quot;:&quot;9dde0ynhwc4&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Walton Balistreri&quot;,&quot;email&quot;:&quot;velia.schamberger@example.com&quot;,&quot;password&quot;:&quot;5oc2j29j3o1b74&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Vasiliki Little&quot;,&quot;email&quot;:&quot;scarlett.nolan@example.com&quot;,&quot;password&quot;:&quot;4s71y5e250zka256&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Dr. Liz Schaefer&quot;,&quot;email&quot;:&quot;alishia.bashirian@example.com&quot;,&quot;password&quot;:&quot;p2ccbh549pj71&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Albina Wilderman&quot;,&quot;email&quot;:&quot;lorraine.botsford@example.com&quot;,&quot;password&quot;:&quot;b3e0dz0iqc7&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Dr. Darron Schroeder&quot;,&quot;email&quot;:&quot;tony.heidenreich@example.com&quot;,&quot;password&quot;:&quot;u7y15l731fst&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Maple Mosciski DDS&quot;,&quot;email&quot;:&quot;savannah.zulauf@example.com&quot;,&quot;password&quot;:&quot;883e7xa147m1&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Nidia Kuhlman&quot;,&quot;email&quot;:&quot;stephenie.durgan@example.com&quot;,&quot;password&quot;:&quot;mar49ng579&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Jeana Kovacek&quot;,&quot;email&quot;:&quot;keith.hansen@example.com&quot;,&quot;password&quot;:&quot;4tps006ijl99113&quot;}]" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="201" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="addNewCustomer" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;name&quot;: &quot;name_1pois&quot;,&#10;  &quot;email&quot;: &quot;email_f04fi&quot;,&#10;  &quot;password&quot;: &quot;password_ajob3&quot;&#10;}" />
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_1pois&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_f04fi&quot;,&#10;  &quot;password&quot;: &quot;No comment,Value =password_ajob3&quot;&#10;}" />
+              <option name="method" value="addNewCustomer" />
+              <option name="methodDescription" value="addNewCustomer" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 71&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;password&quot;:&quot;password_ajob3&quot;,&quot;name&quot;:&quot;name_1pois&quot;,&quot;email&quot;:&quot;email_f04fi&quot;}&#13;&#10;" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;name_46i2c&quot;,&quot;email&quot;:&quot;email_qzz84&quot;,&quot;password&quot;:&quot;password_rgpq5&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Jacelyn Lowe&quot;,&quot;email&quot;:&quot;arica.hackett@example.com&quot;,&quot;password&quot;:&quot;9dde0ynhwc4&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Walton Balistreri&quot;,&quot;email&quot;:&quot;velia.schamberger@example.com&quot;,&quot;password&quot;:&quot;5oc2j29j3o1b74&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Vasiliki Little&quot;,&quot;email&quot;:&quot;scarlett.nolan@example.com&quot;,&quot;password&quot;:&quot;4s71y5e250zka256&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Dr. Liz Schaefer&quot;,&quot;email&quot;:&quot;alishia.bashirian@example.com&quot;,&quot;password&quot;:&quot;p2ccbh549pj71&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Albina Wilderman&quot;,&quot;email&quot;:&quot;lorraine.botsford@example.com&quot;,&quot;password&quot;:&quot;b3e0dz0iqc7&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Dr. Darron Schroeder&quot;,&quot;email&quot;:&quot;tony.heidenreich@example.com&quot;,&quot;password&quot;:&quot;u7y15l731fst&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Maple Mosciski DDS&quot;,&quot;email&quot;:&quot;savannah.zulauf@example.com&quot;,&quot;password&quot;:&quot;883e7xa147m1&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Nidia Kuhlman&quot;,&quot;email&quot;:&quot;stephenie.durgan@example.com&quot;,&quot;password&quot;:&quot;mar49ng579&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Jeana Kovacek&quot;,&quot;email&quot;:&quot;keith.hansen@example.com&quot;,&quot;password&quot;:&quot;4tps006ijl99113&quot;}]" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="updateCustomer" />
+          <option name="methodType" value="PUT" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;name_46i2c&quot;,&#10;  &quot;email&quot;: &quot;email_qzz84&quot;,&#10;  &quot;password&quot;: &quot;password_rgpq5&quot;&#10;}" />
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_46i2c&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_qzz84&quot;,&#10;  &quot;password&quot;: &quot;No comment,Value =password_rgpq5&quot;&#10;}" />
+              <option name="method" value="updateCustomer" />
+              <option name="methodDescription" value="updateCustomer" />
+              <option name="methodType" value="PUT" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 78&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;password&quot;:&quot;password_rgpq5&quot;,&quot;name&quot;:&quot;name_46i2c&quot;,&quot;id&quot;:1,&quot;email&quot;:&quot;email_qzz84&quot;}&#13;&#10;" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/1" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;location&quot; is null" />
+          <option name="url" value="/customers/1" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/{id}" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;location&quot; is null" />
+          <option name="url" value="/customers/{id}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/{id}" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;location&quot; is null" />
+          <option name="url" value="/customers/{id}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="findCustomerById" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/{id}" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Cannot invoke &quot;String.startsWith(String)&quot; because &quot;location&quot; is null" />
+          <option name="url" value="/customers/{id}" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="customers-microservice" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Jerry Luettgen DDS&quot;,&quot;email&quot;:&quot;tyler.borer@example.com&quot;,&quot;password&quot;:&quot;12wg475d0155&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Jacelyn Lowe&quot;,&quot;email&quot;:&quot;arica.hackett@example.com&quot;,&quot;password&quot;:&quot;9dde0ynhwc4&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Walton Balistreri&quot;,&quot;email&quot;:&quot;velia.schamberger@example.com&quot;,&quot;password&quot;:&quot;5oc2j29j3o1b74&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Vasiliki Little&quot;,&quot;email&quot;:&quot;scarlett.nolan@example.com&quot;,&quot;password&quot;:&quot;4s71y5e250zka256&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Dr. Liz Schaefer&quot;,&quot;email&quot;:&quot;alishia.bashirian@example.com&quot;,&quot;password&quot;:&quot;p2ccbh549pj71&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Albina Wilderman&quot;,&quot;email&quot;:&quot;lorraine.botsford@example.com&quot;,&quot;password&quot;:&quot;b3e0dz0iqc7&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Dr. Darron Schroeder&quot;,&quot;email&quot;:&quot;tony.heidenreich@example.com&quot;,&quot;password&quot;:&quot;u7y15l731fst&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Maple Mosciski DDS&quot;,&quot;email&quot;:&quot;savannah.zulauf@example.com&quot;,&quot;password&quot;:&quot;883e7xa147m1&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Nidia Kuhlman&quot;,&quot;email&quot;:&quot;stephenie.durgan@example.com&quot;,&quot;password&quot;:&quot;mar49ng579&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Jeana Kovacek&quot;,&quot;email&quot;:&quot;keith.hansen@example.com&quot;,&quot;password&quot;:&quot;4tps006ijl99113&quot;}]" />
+          <option name="url" value="/customers/" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
           <option name="enableProject" value="lesson08" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
@@ -126,387 +503,6 @@
           </option>
           <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
           <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Winford&quot;,&quot;lastname&quot;:&quot;Rosenbaum&quot;,&quot;email&quot;:&quot;dominique.pouros@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Jacinto&quot;,&quot;lastname&quot;:&quot;Rau&quot;,&quot;email&quot;:&quot;burma.kunde@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Alexander&quot;,&quot;lastname&quot;:&quot;Sauer&quot;,&quot;email&quot;:&quot;garret.paucek@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Vickie&quot;,&quot;lastname&quot;:&quot;Hartmann&quot;,&quot;email&quot;:&quot;stephnie.sawayn@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Leon&quot;,&quot;lastname&quot;:&quot;Moore&quot;,&quot;email&quot;:&quot;jean.anderson@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Ellis&quot;,&quot;lastname&quot;:&quot;Parisian&quot;,&quot;email&quot;:&quot;dayle.little@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Erin&quot;,&quot;lastname&quot;:&quot;Abernathy&quot;,&quot;email&quot;:&quot;alla.ryan@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Lesia&quot;,&quot;lastname&quot;:&quot;Jakubowski&quot;,&quot;email&quot;:&quot;dewey.rice@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Bryce&quot;,&quot;lastname&quot;:&quot;Herzog&quot;,&quot;email&quot;:&quot;antonia.goodwin@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Lorenza&quot;,&quot;lastname&quot;:&quot;Weissnat&quot;,&quot;email&quot;:&quot;cecil.yundt@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Maragaret&quot;,&quot;lastname&quot;:&quot;Kreiger&quot;,&quot;email&quot;:&quot;letty.sauer@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Shawnta&quot;,&quot;lastname&quot;:&quot;Gleason&quot;,&quot;email&quot;:&quot;chang.spinka@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Tommie&quot;,&quot;lastname&quot;:&quot;Skiles&quot;,&quot;email&quot;:&quot;natacha.marvin@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Norine&quot;,&quot;lastname&quot;:&quot;Harris&quot;,&quot;email&quot;:&quot;demetrius.berge@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Orville&quot;,&quot;lastname&quot;:&quot;Monahan&quot;,&quot;email&quot;:&quot;freeda.mertz@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Enola&quot;,&quot;lastname&quot;:&quot;Auer&quot;,&quot;email&quot;:&quot;ty.kemmer@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Eddie&quot;,&quot;lastname&quot;:&quot;Sanford&quot;,&quot;email&quot;:&quot;zane.rosenbaum@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Loida&quot;,&quot;lastname&quot;:&quot;Parker&quot;,&quot;email&quot;:&quot;russ.kozey@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Yoshie&quot;,&quot;lastname&quot;:&quot;Wolf&quot;,&quot;email&quot;:&quot;stephan.farrell@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Vernon&quot;,&quot;lastname&quot;:&quot;Stokes&quot;,&quot;email&quot;:&quot;sigrid.bashirian@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Maragaret&quot;,&quot;lastname&quot;:&quot;Kreiger&quot;,&quot;email&quot;:&quot;letty.sauer@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Shawnta&quot;,&quot;lastname&quot;:&quot;Gleason&quot;,&quot;email&quot;:&quot;chang.spinka@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Tommie&quot;,&quot;lastname&quot;:&quot;Skiles&quot;,&quot;email&quot;:&quot;natacha.marvin@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Norine&quot;,&quot;lastname&quot;:&quot;Harris&quot;,&quot;email&quot;:&quot;demetrius.berge@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Orville&quot;,&quot;lastname&quot;:&quot;Monahan&quot;,&quot;email&quot;:&quot;freeda.mertz@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Enola&quot;,&quot;lastname&quot;:&quot;Auer&quot;,&quot;email&quot;:&quot;ty.kemmer@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Eddie&quot;,&quot;lastname&quot;:&quot;Sanford&quot;,&quot;email&quot;:&quot;zane.rosenbaum@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Loida&quot;,&quot;lastname&quot;:&quot;Parker&quot;,&quot;email&quot;:&quot;russ.kozey@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Yoshie&quot;,&quot;lastname&quot;:&quot;Wolf&quot;,&quot;email&quot;:&quot;stephan.farrell@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Vernon&quot;,&quot;lastname&quot;:&quot;Stokes&quot;,&quot;email&quot;:&quot;sigrid.bashirian@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Maragaret&quot;,&quot;lastname&quot;:&quot;Kreiger&quot;,&quot;email&quot;:&quot;letty.sauer@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Shawnta&quot;,&quot;lastname&quot;:&quot;Gleason&quot;,&quot;email&quot;:&quot;chang.spinka@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Tommie&quot;,&quot;lastname&quot;:&quot;Skiles&quot;,&quot;email&quot;:&quot;natacha.marvin@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Norine&quot;,&quot;lastname&quot;:&quot;Harris&quot;,&quot;email&quot;:&quot;demetrius.berge@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Orville&quot;,&quot;lastname&quot;:&quot;Monahan&quot;,&quot;email&quot;:&quot;freeda.mertz@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Enola&quot;,&quot;lastname&quot;:&quot;Auer&quot;,&quot;email&quot;:&quot;ty.kemmer@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Eddie&quot;,&quot;lastname&quot;:&quot;Sanford&quot;,&quot;email&quot;:&quot;zane.rosenbaum@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Loida&quot;,&quot;lastname&quot;:&quot;Parker&quot;,&quot;email&quot;:&quot;russ.kozey@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Yoshie&quot;,&quot;lastname&quot;:&quot;Wolf&quot;,&quot;email&quot;:&quot;stephan.farrell@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Vernon&quot;,&quot;lastname&quot;:&quot;Stokes&quot;,&quot;email&quot;:&quot;sigrid.bashirian@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Renaldo&quot;,&quot;lastname&quot;:&quot;Terry&quot;,&quot;email&quot;:&quot;khalilah.veum@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Cyndi&quot;,&quot;lastname&quot;:&quot;Hilpert&quot;,&quot;email&quot;:&quot;melonie.powlowski@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Galen&quot;,&quot;lastname&quot;:&quot;Rodriguez&quot;,&quot;email&quot;:&quot;mika.gutkowski@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Jamel&quot;,&quot;lastname&quot;:&quot;Fahey&quot;,&quot;email&quot;:&quot;calista.turner@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Chantal&quot;,&quot;lastname&quot;:&quot;Bernhard&quot;,&quot;email&quot;:&quot;addie.tremblay@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Willard&quot;,&quot;lastname&quot;:&quot;Moore&quot;,&quot;email&quot;:&quot;susy.hane@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Pierre&quot;,&quot;lastname&quot;:&quot;Schamberger&quot;,&quot;email&quot;:&quot;gil.jaskolski@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Somer&quot;,&quot;lastname&quot;:&quot;Rodriguez&quot;,&quot;email&quot;:&quot;calandra.swaniawski@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Cristy&quot;,&quot;lastname&quot;:&quot;Runolfsson&quot;,&quot;email&quot;:&quot;sanford.rohan@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Daniele&quot;,&quot;lastname&quot;:&quot;Bogisich&quot;,&quot;email&quot;:&quot;tommie.metz@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Sid&quot;,&quot;lastname&quot;:&quot;Mitchell&quot;,&quot;email&quot;:&quot;shirlee.frami@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Jonie&quot;,&quot;lastname&quot;:&quot;Pacocha&quot;,&quot;email&quot;:&quot;levi.krajcik@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Maxwell&quot;,&quot;lastname&quot;:&quot;Stanton&quot;,&quot;email&quot;:&quot;khadijah.sipes@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Vallie&quot;,&quot;lastname&quot;:&quot;Jast&quot;,&quot;email&quot;:&quot;deloris.shields@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Royce&quot;,&quot;lastname&quot;:&quot;Weimann&quot;,&quot;email&quot;:&quot;adolfo.grady@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Chris&quot;,&quot;lastname&quot;:&quot;Berge&quot;,&quot;email&quot;:&quot;rayford.hodkiewicz@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Emmanuel&quot;,&quot;lastname&quot;:&quot;Hudson&quot;,&quot;email&quot;:&quot;jeff.farrell@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Justa&quot;,&quot;lastname&quot;:&quot;Schroeder&quot;,&quot;email&quot;:&quot;hai.ratke@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Fidelia&quot;,&quot;lastname&quot;:&quot;Jacobi&quot;,&quot;email&quot;:&quot;moshe.schowalter@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Marylee&quot;,&quot;lastname&quot;:&quot;Walsh&quot;,&quot;email&quot;:&quot;scotty.rowe@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="ConnectException: Connection refused: no further information" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="deleteCustomerById" />
-          <option name="methodType" value="DELETE" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="deleteCustomerById" />
-              <option name="methodDescription" value="deleteCustomerById" />
-              <option name="methodType" value="DELETE" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/{id}" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="url" value="/customers/{id}" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;firstname_dafqa&quot;,&quot;lastname&quot;:&quot;lastname_ex84t&quot;,&quot;email&quot;:&quot;email_xey19&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Rosette&quot;,&quot;lastname&quot;:&quot;Feil&quot;,&quot;email&quot;:&quot;rudolf.tillman@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Raguel&quot;,&quot;lastname&quot;:&quot;Senger&quot;,&quot;email&quot;:&quot;reynalda.schuppe@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Wunsch&quot;,&quot;email&quot;:&quot;donn.haley@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Robert&quot;,&quot;lastname&quot;:&quot;Borer&quot;,&quot;email&quot;:&quot;dwight.mcdermott@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Naoma&quot;,&quot;lastname&quot;:&quot;Spencer&quot;,&quot;email&quot;:&quot;cliff.price@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Arie&quot;,&quot;lastname&quot;:&quot;Koelpin&quot;,&quot;email&quot;:&quot;johnie.conn@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Temple&quot;,&quot;lastname&quot;:&quot;Bayer&quot;,&quot;email&quot;:&quot;danial.cole@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Vivan&quot;,&quot;lastname&quot;:&quot;Nolan&quot;,&quot;email&quot;:&quot;jack.stroman@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Colby&quot;,&quot;lastname&quot;:&quot;Klocko&quot;,&quot;email&quot;:&quot;darwin.bosco@example.com&quot;},{&quot;id&quot;:11,&quot;firstname&quot;:&quot;firstname_yshdi&quot;,&quot;lastname&quot;:&quot;lastname_z5aly&quot;,&quot;email&quot;:&quot;email_g3g8q&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;firstname&quot;: &quot;firstname_dafqa&quot;,&#10;  &quot;lastname&quot;: &quot;lastname_ex84t&quot;,&#10;  &quot;email&quot;: &quot;email_xey19&quot;&#10;}" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;firstname&quot;: &quot;No comment,Value =firstname_dafqa&quot;,&#10;  &quot;lastname&quot;: &quot;No comment,Value =lastname_ex84t&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_xey19&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 88&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;firstname&quot;:&quot;firstname_dafqa&quot;,&quot;id&quot;:1,&quot;email&quot;:&quot;email_xey19&quot;,&quot;lastname&quot;:&quot;lastname_ex84t&quot;}&#13;&#10;" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Edmundo&quot;,&quot;lastname&quot;:&quot;Huel&quot;,&quot;email&quot;:&quot;osvaldo.johnston@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Rosette&quot;,&quot;lastname&quot;:&quot;Feil&quot;,&quot;email&quot;:&quot;rudolf.tillman@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Raguel&quot;,&quot;lastname&quot;:&quot;Senger&quot;,&quot;email&quot;:&quot;reynalda.schuppe@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Wunsch&quot;,&quot;email&quot;:&quot;donn.haley@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Robert&quot;,&quot;lastname&quot;:&quot;Borer&quot;,&quot;email&quot;:&quot;dwight.mcdermott@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Naoma&quot;,&quot;lastname&quot;:&quot;Spencer&quot;,&quot;email&quot;:&quot;cliff.price@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Arie&quot;,&quot;lastname&quot;:&quot;Koelpin&quot;,&quot;email&quot;:&quot;johnie.conn@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Temple&quot;,&quot;lastname&quot;:&quot;Bayer&quot;,&quot;email&quot;:&quot;danial.cole@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Vivan&quot;,&quot;lastname&quot;:&quot;Nolan&quot;,&quot;email&quot;:&quot;jack.stroman@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Colby&quot;,&quot;lastname&quot;:&quot;Klocko&quot;,&quot;email&quot;:&quot;darwin.bosco@example.com&quot;},{&quot;id&quot;:11,&quot;firstname&quot;:&quot;firstname_yshdi&quot;,&quot;lastname&quot;:&quot;lastname_z5aly&quot;,&quot;email&quot;:&quot;email_g3g8q&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="addNewCustomer" />
-          <option name="methodType" value="POST" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="{&#10;  &quot;firstname&quot;: &quot;firstname_yshdi&quot;,&#10;  &quot;lastname&quot;: &quot;lastname_z5aly&quot;,&#10;  &quot;email&quot;: &quot;email_g3g8q&quot;&#10;}" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;firstname&quot;: &quot;No comment,Value =firstname_yshdi&quot;,&#10;  &quot;lastname&quot;: &quot;No comment,Value =lastname_z5aly&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_g3g8q&quot;&#10;}" />
-              <option name="method" value="addNewCustomer" />
-              <option name="methodDescription" value="addNewCustomer" />
-              <option name="methodType" value="POST" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 81&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;firstname&quot;:&quot;firstname_yshdi&quot;,&quot;email&quot;:&quot;email_g3g8q&quot;,&quot;lastname&quot;:&quot;lastname_z5aly&quot;}&#13;&#10;" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getCustomerById" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getCustomerById" />
-              <option name="methodDescription" value="getCustomerById" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;4&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/{id}" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/4&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Wunsch&quot;,&quot;email&quot;:&quot;donn.haley@example.com&quot;}" />
-          <option name="url" value="/customers/{id}" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Edmundo&quot;,&quot;lastname&quot;:&quot;Huel&quot;,&quot;email&quot;:&quot;osvaldo.johnston@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Rosette&quot;,&quot;lastname&quot;:&quot;Feil&quot;,&quot;email&quot;:&quot;rudolf.tillman@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Raguel&quot;,&quot;lastname&quot;:&quot;Senger&quot;,&quot;email&quot;:&quot;reynalda.schuppe@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Wunsch&quot;,&quot;email&quot;:&quot;donn.haley@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Robert&quot;,&quot;lastname&quot;:&quot;Borer&quot;,&quot;email&quot;:&quot;dwight.mcdermott@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Naoma&quot;,&quot;lastname&quot;:&quot;Spencer&quot;,&quot;email&quot;:&quot;cliff.price@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Arie&quot;,&quot;lastname&quot;:&quot;Koelpin&quot;,&quot;email&quot;:&quot;johnie.conn@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Temple&quot;,&quot;lastname&quot;:&quot;Bayer&quot;,&quot;email&quot;:&quot;danial.cole@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Vivan&quot;,&quot;lastname&quot;:&quot;Nolan&quot;,&quot;email&quot;:&quot;jack.stroman@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Colby&quot;,&quot;lastname&quot;:&quot;Klocko&quot;,&quot;email&quot;:&quot;darwin.bosco@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Edmundo&quot;,&quot;lastname&quot;:&quot;Huel&quot;,&quot;email&quot;:&quot;osvaldo.johnston@example.com&quot;},{&quot;id&quot;:2,&quot;firstname&quot;:&quot;Rosette&quot;,&quot;lastname&quot;:&quot;Feil&quot;,&quot;email&quot;:&quot;rudolf.tillman@example.com&quot;},{&quot;id&quot;:3,&quot;firstname&quot;:&quot;Raguel&quot;,&quot;lastname&quot;:&quot;Senger&quot;,&quot;email&quot;:&quot;reynalda.schuppe@example.com&quot;},{&quot;id&quot;:4,&quot;firstname&quot;:&quot;Susan&quot;,&quot;lastname&quot;:&quot;Wunsch&quot;,&quot;email&quot;:&quot;donn.haley@example.com&quot;},{&quot;id&quot;:5,&quot;firstname&quot;:&quot;Robert&quot;,&quot;lastname&quot;:&quot;Borer&quot;,&quot;email&quot;:&quot;dwight.mcdermott@example.com&quot;},{&quot;id&quot;:6,&quot;firstname&quot;:&quot;Naoma&quot;,&quot;lastname&quot;:&quot;Spencer&quot;,&quot;email&quot;:&quot;cliff.price@example.com&quot;},{&quot;id&quot;:7,&quot;firstname&quot;:&quot;Arie&quot;,&quot;lastname&quot;:&quot;Koelpin&quot;,&quot;email&quot;:&quot;johnie.conn@example.com&quot;},{&quot;id&quot;:8,&quot;firstname&quot;:&quot;Temple&quot;,&quot;lastname&quot;:&quot;Bayer&quot;,&quot;email&quot;:&quot;danial.cole@example.com&quot;},{&quot;id&quot;:9,&quot;firstname&quot;:&quot;Vivan&quot;,&quot;lastname&quot;:&quot;Nolan&quot;,&quot;email&quot;:&quot;jack.stroman@example.com&quot;},{&quot;id&quot;:10,&quot;firstname&quot;:&quot;Colby&quot;,&quot;lastname&quot;:&quot;Klocko&quot;,&quot;email&quot;:&quot;darwin.bosco@example.com&quot;}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="404" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson08" />
-          <option name="method" value="addNewCustomer" />
-          <option name="methodType" value="POST" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;firstname&quot;: &quot;firstname_3e428&quot;,&#10;  &quot;lastname&quot;: &quot;lastname_oidbl&quot;,&#10;  &quot;email&quot;: &quot;email_mkfrv&quot;&#10;}" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;firstname&quot;: &quot;No comment,Value =firstname_3e428&quot;,&#10;  &quot;lastname&quot;: &quot;No comment,Value =lastname_oidbl&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_mkfrv&quot;&#10;}" />
-              <option name="method" value="addNewCustomer" />
-              <option name="methodDescription" value="addNewCustomer" />
-              <option name="methodType" value="POST" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 88&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;firstname&quot;:&quot;firstname_3e428&quot;,&quot;id&quot;:1,&quot;email&quot;:&quot;email_mkfrv&quot;,&quot;lastname&quot;:&quot;lastname_oidbl&quot;}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-15T20:36:08.144+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;path&quot;:&quot;/customers/&quot;}" />
           <option name="url" value="/customers/" />
         </ResponseHistory>
       </list>

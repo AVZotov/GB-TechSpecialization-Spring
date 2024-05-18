@@ -10,9 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/lesson04/lesson04.iml" filepath="$PROJECT_DIR$/lesson04/lesson04.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson05/lesson05.iml" filepath="$PROJECT_DIR$/lesson05/lesson05.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson07/lesson07.iml" filepath="$PROJECT_DIR$/lesson07/lesson07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson08/lesson08.iml" filepath="$PROJECT_DIR$/lesson08/lesson08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson08/src/main/main.iml" filepath="$PROJECT_DIR$/lesson08/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-framework.iml" filepath="$PROJECT_DIR$/spring-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson08/src/test/test1.iml" filepath="$PROJECT_DIR$/lesson08/src/test/test1.iml" />
     </modules>
   </component>
 </project>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="customers-microservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,10 +20,12 @@
       <module name="lesson04" target="17" />
       <module name="lesson05" target="17" />
       <module name="lesson07" target="17" />
+      <module name="lesson08" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="customers-microservice" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="exercise01" options="-parameters" />
       <module name="exercise02" options="-parameters" />
