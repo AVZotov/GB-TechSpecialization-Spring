@@ -32,6 +32,8 @@
         <option value="$PROJECT_DIR$/lesson06/exercise02/pom.xml" />
         <option value="$PROJECT_DIR$/lesson07/pom.xml" />
         <option value="$PROJECT_DIR$/lesson08/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson09/evrika-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson09/eureka-server/pom.xml" />
       </list>
     </option>
   </component>
