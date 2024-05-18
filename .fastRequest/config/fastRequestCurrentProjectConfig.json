@@ -22,6 +22,15 @@
 				}
 			],
 			"name":"customers-microservice"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8765"
+				}
+			],
+			"name":"api-gateway"
 		}
 	],
 	"envList":[
@@ -35,7 +44,8 @@
 	"preScript":"",
 	"projectList":[
 		"lesson08",
-		"customers-microservice"
+		"customers-microservice",
+		"api-gateway"
 	],
 	"syncModel":{
 		"branch":"master",

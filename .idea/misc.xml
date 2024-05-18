@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/lesson09/evrika-server/pom.xml" />
         <option value="$PROJECT_DIR$/lesson09/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/lesson09/customers-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson09/api-gateway/pom.xml" />
       </list>
     </option>
   </component>
