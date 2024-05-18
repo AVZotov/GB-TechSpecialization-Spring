@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="spring-cloud" type="CompoundRunConfigurationType">
+    <toRun name="api-gateway" type="Application" />
+    <toRun name="customer-microservice" type="Application" />
+    <toRun name="eureka-server" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>
