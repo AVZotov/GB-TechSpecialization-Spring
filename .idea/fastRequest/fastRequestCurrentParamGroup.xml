@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="fastRequestCurrentParamGroup">
+    <option name="bodyParamMap">
+      <map>
+        <entry key="customer">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="className" value="ru.gb.controller.CustomerController" />
     <option name="filePath" value="" />
-    <option name="method" value="findCustomerById" />
-    <option name="module" value="customers-microservice" />
+    <option name="method" value="updateCustomer" />
+    <option name="methodType" value="PUT" />
+    <option name="module" value="lesson10" />
     <option name="originUrl" value="/customers/{id}" />
     <option name="pathParamMap">
       <map>
