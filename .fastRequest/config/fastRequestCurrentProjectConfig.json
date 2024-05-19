@@ -40,6 +40,15 @@
 				}
 			],
 			"name":"testing-solution"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"lesson10"
 		}
 	],
 	"envList":[
@@ -55,7 +64,8 @@
 		"lesson08",
 		"customers-microservice",
 		"api-gateway",
-		"testing-solution"
+		"testing-solution",
+		"lesson10"
 	],
 	"syncModel":{
 		"branch":"master",
