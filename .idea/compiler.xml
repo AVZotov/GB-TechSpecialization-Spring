@@ -7,13 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
-        <module name="eureka-server" />
-        <module name="customers-microservice" />
-        <module name="testing" />
+        <module name="lesson10" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.32/17d46b3e205515e1e8efd3ee4d57ce8018914163/lombok-1.18.32.jar" />
+        </processorPath>
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="17" />
+      <module name="customers-microservice" target="17" />
+      <module name="eureka-server" target="17" />
       <module name="exercise01" target="17" />
       <module name="exercise02" target="17" />
       <module name="lesson01" target="1.8" />
@@ -23,6 +29,12 @@
       <module name="lesson05" target="17" />
       <module name="lesson07" target="17" />
       <module name="lesson08" target="17" />
+      <module name="lesson10-1" target="17" />
+      <module name="testing" target="17" />
+      <module name="testing-exercise" target="17" />
+      <module name="testing-solution" target="17" />
+      <module name="testing-solution.main" target="17" />
+      <module name="testing-solution.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,7 +50,10 @@
       <module name="lesson05" options="-parameters" />
       <module name="lesson07" options="-parameters" />
       <module name="lesson08" options="-parameters" />
+      <module name="lesson10" options="-parameters" />
       <module name="testing" options="-parameters" />
+      <module name="testing-exercise" options="-parameters" />
+      <module name="testing-solution" options="-parameters" />
     </option>
   </component>
 </project>

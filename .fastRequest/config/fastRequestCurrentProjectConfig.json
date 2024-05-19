@@ -31,6 +31,15 @@
 				}
 			],
 			"name":"api-gateway"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"testing-solution"
 		}
 	],
 	"envList":[
@@ -45,7 +54,8 @@
 	"projectList":[
 		"lesson08",
 		"customers-microservice",
-		"api-gateway"
+		"api-gateway",
+		"testing-solution"
 	],
 	"syncModel":{
 		"branch":"master",

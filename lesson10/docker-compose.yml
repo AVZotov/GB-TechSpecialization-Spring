@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:15.6
+    container_name: testing-solution
+    environment:
+      POSTGRES_USER: alexey
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: customer
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - test_volume:/var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    networks:
+      - test_db
+
+networks:
+  test_db:
+    driver: bridge
+
+volumes:
+  test_volume:

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EntryPointsManager">
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="org.aspectj.lang.annotation.Before" />
       <item index="1" class="java.lang.String" itemvalue="org.springframework.context.annotation.Bean" />
       <item index="2" class="java.lang.String" itemvalue="org.springframework.stereotype.Component" />
       <item index="3" class="java.lang.String" itemvalue="org.springframework.stereotype.Service" />
-      <item index="4" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.DeleteMapping" />
-      <item index="5" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.GetMapping" />
-      <item index="6" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PostMapping" />
-      <item index="7" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PutMapping" />
+      <item index="4" class="java.lang.String" itemvalue="org.springframework.test.context.DynamicPropertySource" />
+      <item index="5" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.DeleteMapping" />
+      <item index="6" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.GetMapping" />
+      <item index="7" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PostMapping" />
+      <item index="8" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PutMapping" />
     </list>
     <writeAnnotations>
       <writeAnnotation name="org.springframework.beans.factory.annotation.Autowired" />
@@ -37,7 +38,21 @@
         <option value="$PROJECT_DIR$/lesson09/customers-microservice/pom.xml" />
         <option value="$PROJECT_DIR$/lesson09/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/lesson10/testing-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10/testing-solution/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10-1/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/lesson08/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson09/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson09/customers-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson09/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10-1/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10/testing-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10/testing-solution/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectResources">
@@ -45,7 +60,7 @@
     <resource url="http://www.thymeleaf.org" location="$PROJECT_DIR$" />
     <resource url="http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd" location="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="17 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="17 OpenJDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
