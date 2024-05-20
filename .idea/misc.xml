@@ -41,6 +41,7 @@
         <option value="$PROJECT_DIR$/lesson10/testing-solution/pom.xml" />
         <option value="$PROJECT_DIR$/lesson10-1/pom.xml" />
         <option value="$PROJECT_DIR$/lesson10/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson11/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -50,6 +51,7 @@
         <option value="$PROJECT_DIR$/lesson09/customers-microservice/pom.xml" />
         <option value="$PROJECT_DIR$/lesson09/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/lesson10-1/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson10/pom.xml" />
         <option value="$PROJECT_DIR$/lesson10/testing-exercise/pom.xml" />
         <option value="$PROJECT_DIR$/lesson10/testing-solution/pom.xml" />
       </set>

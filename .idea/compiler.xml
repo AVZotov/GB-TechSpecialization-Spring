@@ -7,7 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lesson10" />
+        <module name="lesson10 (2)" />
+        <module name="lesson11" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -29,6 +30,8 @@
       <module name="lesson05" target="17" />
       <module name="lesson07" target="17" />
       <module name="lesson08" target="17" />
+      <module name="lesson10" target="17" />
+      <module name="lesson10 (2)" target="17" />
       <module name="lesson10-1" target="17" />
       <module name="testing" target="17" />
       <module name="testing-exercise" target="17" />
@@ -51,6 +54,8 @@
       <module name="lesson07" options="-parameters" />
       <module name="lesson08" options="-parameters" />
       <module name="lesson10" options="-parameters" />
+      <module name="lesson10 (2)" options="-parameters" />
+      <module name="lesson11" options="-parameters" />
       <module name="testing" options="-parameters" />
       <module name="testing-exercise" options="-parameters" />
       <module name="testing-solution" options="-parameters" />
