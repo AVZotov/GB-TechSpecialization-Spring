@@ -7,7 +7,32 @@
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="deleteCustomerById" />
           <option name="methodType" value="DELETE" />
           <option name="paramGroup">
@@ -18,72 +43,246 @@
               <option name="methodType" value="DELETE" />
               <option name="multipartKeyValueListJson" value="[]" />
               <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;18&quot;}]" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
               <option name="url" value="/customers/{id}" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/18&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
           <option name="url" value="/customers/{id}" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="getAllCustomers" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="findCustomerById" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
               <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:7,&quot;name&quot;:&quot;Raymundo Boehm V&quot;,&quot;email&quot;:&quot;dorsey.rolfson@example.com&quot;,&quot;age&quot;:37},{&quot;id&quot;:8,&quot;name&quot;:&quot;Stanford Feeney&quot;,&quot;email&quot;:&quot;daria.ziemann@example.com&quot;,&quot;age&quot;:78},{&quot;id&quot;:9,&quot;name&quot;:&quot;Adan Greenfelder&quot;,&quot;email&quot;:&quot;elisabeth.bins@example.com&quot;,&quot;age&quot;:75},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33},{&quot;id&quot;:10,&quot;name&quot;:&quot;Shayla Hoppe&quot;,&quot;email&quot;:&quot;rosario.mraz@example.com&quot;,&quot;age&quot;:27},{&quot;id&quot;:11,&quot;name&quot;:&quot;Lauren Auer&quot;,&quot;email&quot;:&quot;7d8552b3-fe93-454c-aa2b-67721d1f4533@example.com&quot;,&quot;age&quot;:30},{&quot;id&quot;:12,&quot;name&quot;:&quot;Anisa Gibson&quot;,&quot;email&quot;:&quot;eun.crist@example.com&quot;,&quot;age&quot;:57},{&quot;id&quot;:13,&quot;name&quot;:&quot;Valentina Sauer&quot;,&quot;email&quot;:&quot;edfc7b89-c0c7-4f78-95ed-e486a63e29e3@example.com&quot;,&quot;age&quot;:30},{&quot;id&quot;:14,&quot;name&quot;:&quot;Tyson Weber&quot;,&quot;email&quot;:&quot;herschel.cartwright@example.com&quot;,&quot;age&quot;:84},{&quot;id&quot;:15,&quot;name&quot;:&quot;Nelia Schmeler&quot;,&quot;email&quot;:&quot;66c98ab8-1ce4-44d3-944f-538561e7654f@example.com&quot;,&quot;age&quot;:49},{&quot;id&quot;:16,&quot;name&quot;:&quot;Krysten Cole&quot;,&quot;email&quot;:&quot;reyes.flatley@example.com&quot;,&quot;age&quot;:33},{&quot;id&quot;:18,&quot;name&quot;:&quot;Sherwood Jones&quot;,&quot;email&quot;:&quot;suanne.bashirian@example.com&quot;,&quot;age&quot;:63},{&quot;id&quot;:20,&quot;name&quot;:&quot;Rosendo Cruickshank&quot;,&quot;email&quot;:&quot;carol.beatty@example.com&quot;,&quot;age&quot;:82},{&quot;id&quot;:21,&quot;name&quot;:&quot;7d2d6a81-a781-46c5-96c1-677005f391d9&quot;,&quot;email&quot;:&quot;c18762ce-f4f5-4cfd-96a4-24a3f1c70365@example.com&quot;,&quot;age&quot;:85},{&quot;id&quot;:22,&quot;name&quot;:&quot;Dr. Everette Daugherty&quot;,&quot;email&quot;:&quot;barbra.parisian@example.com&quot;,&quot;age&quot;:23},{&quot;id&quot;:23,&quot;name&quot;:&quot;Altagracia Graham&quot;,&quot;email&quot;:&quot;5bfd3ba6-149b-4478-b684-f7f40b6a2101@example.com&quot;,&quot;age&quot;:74},{&quot;id&quot;:25,&quot;name&quot;:&quot;84280466-8d0c-4905-bdf4-6260b1f36d64&quot;,&quot;email&quot;:&quot;68433eff-8894-4eb7-abd6-a0e18957229b@example.com&quot;,&quot;age&quot;:97},{&quot;id&quot;:26,&quot;name&quot;:&quot;Bella Fritsch&quot;,&quot;email&quot;:&quot;chris.bogan@example.com&quot;,&quot;age&quot;:66},{&quot;id&quot;:27,&quot;name&quot;:&quot;Dr. Tyrone Marks&quot;,&quot;email&quot;:&quot;dab6bd82-e4a1-4142-b62f-9a0eaf6ab28e@example.com&quot;,&quot;age&quot;:50},{&quot;id&quot;:29,&quot;name&quot;:&quot;3ad96efa-dded-47d1-a327-c03de5f99fd3&quot;,&quot;email&quot;:&quot;b4aa1461-a07e-436f-85f1-002a4121a27f@example.com&quot;,&quot;age&quot;:61},{&quot;id&quot;:30,&quot;name&quot;:&quot;Alberto Herzog&quot;,&quot;email&quot;:&quot;ambrose.haag@example.com&quot;,&quot;age&quot;:71},{&quot;id&quot;:31,&quot;name&quot;:&quot;Delmy Treutel&quot;,&quot;email&quot;:&quot;katie.walsh@example.com&quot;,&quot;age&quot;:19},{&quot;id&quot;:32,&quot;name&quot;:&quot;Eduardo Ortiz&quot;,&quot;email&quot;:&quot;2030b614-750b-4a36-ab8c-09437ffd45ee@example.com&quot;,&quot;age&quot;:36},{&quot;id&quot;:34,&quot;name&quot;:&quot;40347a48-a9d6-47b4-a47f-3f6e90974b41&quot;,&quot;email&quot;:&quot;581a637a-a690-44d4-ba11-6e3071f8c7ac@example.com&quot;,&quot;age&quot;:74},{&quot;id&quot;:35,&quot;name&quot;:&quot;Duane Schinner&quot;,&quot;email&quot;:&quot;lizette.waters@example.com&quot;,&quot;age&quot;:25}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="deleteCustomerById" />
-          <option name="methodType" value="DELETE" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="deleteCustomerById" />
-              <option name="methodDescription" value="deleteCustomerById" />
-              <option name="methodType" value="DELETE" />
+              <option name="method" value="findCustomerById" />
+              <option name="methodDescription" value="findCustomerById" />
               <option name="multipartKeyValueListJson" value="[]" />
               <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;17&quot;}]" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
               <option name="url" value="/customers/{id}" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/17&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-19T22:43:17.480+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;customer not found&quot;,&quot;path&quot;:&quot;/customers/17&quot;}" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;}" />
           <option name="url" value="/customers/{id}" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Frankie Ortiz&quot;,&quot;email&quot;:&quot;dodie.dubuque@example.com&quot;,&quot;password&quot;:&quot;5jm74ghd21zad7&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Tawna Farrell&quot;,&quot;email&quot;:&quot;iona.beer@example.com&quot;,&quot;password&quot;:&quot;aan3ybc2yvo&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Myrna Torphy&quot;,&quot;email&quot;:&quot;britt.leannon@example.com&quot;,&quot;password&quot;:&quot;g31hyd813sqrp9&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Yuki Kirlin&quot;,&quot;email&quot;:&quot;isaias.steuber@example.com&quot;,&quot;password&quot;:&quot;b22dw57on15d812&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Alonso Raynor&quot;,&quot;email&quot;:&quot;lorena.denesik@example.com&quot;,&quot;password&quot;:&quot;y5695n60004t63bf&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Asuncion Reinger&quot;,&quot;email&quot;:&quot;vince.grant@example.com&quot;,&quot;password&quot;:&quot;7snbc084u&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Edmond Haag&quot;,&quot;email&quot;:&quot;maurine.mayer@example.com&quot;,&quot;password&quot;:&quot;7iico34481116e&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Coleman Schaefer&quot;,&quot;email&quot;:&quot;vicky.mante@example.com&quot;,&quot;password&quot;:&quot;vwas9z1914zk10l0&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Galina Schaden&quot;,&quot;email&quot;:&quot;lester.willms@example.com&quot;,&quot;password&quot;:&quot;j9y0e77p&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Sammie Carroll&quot;,&quot;email&quot;:&quot;harry.krajcik@example.com&quot;,&quot;password&quot;:&quot;dxreclr39o587&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -95,20 +294,20 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator/prometheus" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:7,&quot;name&quot;:&quot;Raymundo Boehm V&quot;,&quot;email&quot;:&quot;dorsey.rolfson@example.com&quot;,&quot;age&quot;:37},{&quot;id&quot;:8,&quot;name&quot;:&quot;Stanford Feeney&quot;,&quot;email&quot;:&quot;daria.ziemann@example.com&quot;,&quot;age&quot;:78},{&quot;id&quot;:9,&quot;name&quot;:&quot;Adan Greenfelder&quot;,&quot;email&quot;:&quot;elisabeth.bins@example.com&quot;,&quot;age&quot;:75},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33},{&quot;id&quot;:10,&quot;name&quot;:&quot;Shayla Hoppe&quot;,&quot;email&quot;:&quot;rosario.mraz@example.com&quot;,&quot;age&quot;:27},{&quot;id&quot;:11,&quot;name&quot;:&quot;Lauren Auer&quot;,&quot;email&quot;:&quot;7d8552b3-fe93-454c-aa2b-67721d1f4533@example.com&quot;,&quot;age&quot;:30},{&quot;id&quot;:12,&quot;name&quot;:&quot;Anisa Gibson&quot;,&quot;email&quot;:&quot;eun.crist@example.com&quot;,&quot;age&quot;:57},{&quot;id&quot;:13,&quot;name&quot;:&quot;Valentina Sauer&quot;,&quot;email&quot;:&quot;edfc7b89-c0c7-4f78-95ed-e486a63e29e3@example.com&quot;,&quot;age&quot;:30},{&quot;id&quot;:14,&quot;name&quot;:&quot;Tyson Weber&quot;,&quot;email&quot;:&quot;herschel.cartwright@example.com&quot;,&quot;age&quot;:84},{&quot;id&quot;:15,&quot;name&quot;:&quot;Nelia Schmeler&quot;,&quot;email&quot;:&quot;66c98ab8-1ce4-44d3-944f-538561e7654f@example.com&quot;,&quot;age&quot;:49},{&quot;id&quot;:16,&quot;name&quot;:&quot;Krysten Cole&quot;,&quot;email&quot;:&quot;reyes.flatley@example.com&quot;,&quot;age&quot;:33},{&quot;id&quot;:18,&quot;name&quot;:&quot;Sherwood Jones&quot;,&quot;email&quot;:&quot;suanne.bashirian@example.com&quot;,&quot;age&quot;:63},{&quot;id&quot;:20,&quot;name&quot;:&quot;Rosendo Cruickshank&quot;,&quot;email&quot;:&quot;carol.beatty@example.com&quot;,&quot;age&quot;:82},{&quot;id&quot;:21,&quot;name&quot;:&quot;7d2d6a81-a781-46c5-96c1-677005f391d9&quot;,&quot;email&quot;:&quot;c18762ce-f4f5-4cfd-96a4-24a3f1c70365@example.com&quot;,&quot;age&quot;:85},{&quot;id&quot;:22,&quot;name&quot;:&quot;Dr. Everette Daugherty&quot;,&quot;email&quot;:&quot;barbra.parisian@example.com&quot;,&quot;age&quot;:23},{&quot;id&quot;:23,&quot;name&quot;:&quot;Altagracia Graham&quot;,&quot;email&quot;:&quot;5bfd3ba6-149b-4478-b684-f7f40b6a2101@example.com&quot;,&quot;age&quot;:74},{&quot;id&quot;:25,&quot;name&quot;:&quot;84280466-8d0c-4905-bdf4-6260b1f36d64&quot;,&quot;email&quot;:&quot;68433eff-8894-4eb7-abd6-a0e18957229b@example.com&quot;,&quot;age&quot;:97},{&quot;id&quot;:26,&quot;name&quot;:&quot;Bella Fritsch&quot;,&quot;email&quot;:&quot;chris.bogan@example.com&quot;,&quot;age&quot;:66},{&quot;id&quot;:27,&quot;name&quot;:&quot;Dr. Tyrone Marks&quot;,&quot;email&quot;:&quot;dab6bd82-e4a1-4142-b62f-9a0eaf6ab28e@example.com&quot;,&quot;age&quot;:50},{&quot;id&quot;:29,&quot;name&quot;:&quot;3ad96efa-dded-47d1-a327-c03de5f99fd3&quot;,&quot;email&quot;:&quot;b4aa1461-a07e-436f-85f1-002a4121a27f@example.com&quot;,&quot;age&quot;:61},{&quot;id&quot;:30,&quot;name&quot;:&quot;Alberto Herzog&quot;,&quot;email&quot;:&quot;ambrose.haag@example.com&quot;,&quot;age&quot;:71},{&quot;id&quot;:31,&quot;name&quot;:&quot;Delmy Treutel&quot;,&quot;email&quot;:&quot;katie.walsh@example.com&quot;,&quot;age&quot;:19},{&quot;id&quot;:32,&quot;name&quot;:&quot;Eduardo Ortiz&quot;,&quot;email&quot;:&quot;2030b614-750b-4a36-ab8c-09437ffd45ee@example.com&quot;,&quot;age&quot;:36},{&quot;id&quot;:34,&quot;name&quot;:&quot;40347a48-a9d6-47b4-a47f-3f6e90974b41&quot;,&quot;email&quot;:&quot;581a637a-a690-44d4-ba11-6e3071f8c7ac@example.com&quot;,&quot;age&quot;:74},{&quot;id&quot;:35,&quot;name&quot;:&quot;Duane Schinner&quot;,&quot;email&quot;:&quot;lizette.waters@example.com&quot;,&quot;age&quot;:25}]" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator/prometheus&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="# HELP jvm_info JVM version info&#10;# TYPE jvm_info gauge&#10;jvm_info{runtime=&quot;Java(TM) SE Runtime Environment&quot;,vendor=&quot;Oracle Corporation&quot;,version=&quot;17.0.10+11-LTS-240&quot;,} 1.0&#10;# HELP disk_free_bytes Usable space for path&#10;# TYPE disk_free_bytes gauge&#10;disk_free_bytes{path=&quot;C:\\Development\\Repository\\GeekBrains\\TECH SPECIALIZATION\\JAVA WEB DEVELOPMENT\\java_spring\\spring-framework\\.&quot;,} 6.62625112064E11&#10;# HELP jvm_threads_states_threads The current number of threads&#10;# TYPE jvm_threads_states_threads gauge&#10;jvm_threads_states_threads{state=&quot;runnable&quot;,} 9.0&#10;jvm_threads_states_threads{state=&quot;blocked&quot;,} 0.0&#10;jvm_threads_states_threads{state=&quot;waiting&quot;,} 11.0&#10;jvm_threads_states_threads{state=&quot;timed-waiting&quot;,} 4.0&#10;jvm_threads_states_threads{state=&quot;new&quot;,} 0.0&#10;jvm_threads_states_threads{state=&quot;terminated&quot;,} 0.0&#10;# HELP tomcat_sessions_alive_max_seconds  &#10;# TYPE tomcat_sessions_alive_max_seconds gauge&#10;tomcat_sessions_alive_max_seconds 0.0&#10;# HELP executor_pool_size_threads The current number of threads in the pool&#10;# TYPE executor_pool_size_threads gauge&#10;executor_pool_size_threads{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP hikaricp_connections_active Active connections&#10;# TYPE hikaricp_connections_active gauge&#10;hikaricp_connections_active{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP spring_data_repository_invocations_seconds_max Duration of repository invocations&#10;# TYPE spring_data_repository_invocations_seconds_max gauge&#10;spring_data_repository_invocations_seconds_max{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 0.0255294&#10;# HELP spring_data_repository_invocations_seconds Duration of repository invocations&#10;# TYPE spring_data_repository_invocations_seconds summary&#10;spring_data_repository_invocations_seconds_count{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 10.0&#10;spring_data_repository_invocations_seconds_sum{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 0.0266976&#10;# HELP jvm_memory_usage_after_gc_percent The percentage of long-lived heap pool used after the last GC event, in the range [0..1]&#10;# TYPE jvm_memory_usage_after_gc_percent gauge&#10;jvm_memory_usage_after_gc_percent{area=&quot;heap&quot;,pool=&quot;long-lived&quot;,} 0.005626282011437096&#10;# HELP disk_total_bytes Total space for path&#10;# TYPE disk_total_bytes gauge&#10;disk_total_bytes{path=&quot;C:\\Development\\Repository\\GeekBrains\\TECH SPECIALIZATION\\JAVA WEB DEVELOPMENT\\java_spring\\spring-framework\\.&quot;,} 1.00095596544E12&#10;# HELP system_cpu_usage The &quot;recent cpu usage&quot; of the system the application is running in&#10;# TYPE system_cpu_usage gauge&#10;system_cpu_usage 0.0&#10;# HELP jvm_gc_max_data_size_bytes Max size of long-lived heap memory pool&#10;# TYPE jvm_gc_max_data_size_bytes gauge&#10;jvm_gc_max_data_size_bytes 4.217372672E9&#10;# HELP executor_queued_tasks The approximate number of tasks that are queued for execution&#10;# TYPE executor_queued_tasks gauge&#10;executor_queued_tasks{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP hikaricp_connections Total connections&#10;# TYPE hikaricp_connections gauge&#10;hikaricp_connections{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP tomcat_sessions_expired_sessions_total  &#10;# TYPE tomcat_sessions_expired_sessions_total counter&#10;tomcat_sessions_expired_sessions_total 0.0&#10;# HELP application_ready_time_seconds Time taken for the application to be ready to service requests&#10;# TYPE application_ready_time_seconds gauge&#10;application_ready_time_seconds{main_application_class=&quot;ru.gb.Lesson11Application&quot;,} 4.599&#10;# HELP jvm_gc_overhead_percent An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]&#10;# TYPE jvm_gc_overhead_percent gauge&#10;jvm_gc_overhead_percent 4.273730379410671E-4&#10;# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next&#10;# TYPE jvm_gc_memory_allocated_bytes_total counter&#10;jvm_gc_memory_allocated_bytes_total 5.6623104E7&#10;# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads&#10;# TYPE jvm_threads_live_threads gauge&#10;jvm_threads_live_threads 24.0&#10;# HELP jvm_classes_unloaded_classes_total The total number of classes unloaded since the Java virtual machine has started execution&#10;# TYPE jvm_classes_unloaded_classes_total counter&#10;jvm_classes_unloaded_classes_total 0.0&#10;# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool&#10;# TYPE jvm_buffer_total_capacity_bytes gauge&#10;jvm_buffer_total_capacity_bytes{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_total_capacity_bytes{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_total_capacity_bytes{id=&quot;direct&quot;,} 16384.0&#10;# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset&#10;# TYPE jvm_threads_peak_threads gauge&#10;jvm_threads_peak_threads 25.0&#10;# HELP jvm_gc_pause_seconds Time spent in GC pause&#10;# TYPE jvm_gc_pause_seconds summary&#10;jvm_gc_pause_seconds_count{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 1.0&#10;jvm_gc_pause_seconds_sum{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 0.004&#10;# HELP jvm_gc_pause_seconds_max Time spent in GC pause&#10;# TYPE jvm_gc_pause_seconds_max gauge&#10;jvm_gc_pause_seconds_max{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 0.004&#10;# HELP executor_pool_max_threads The maximum allowed number of threads in the pool&#10;# TYPE executor_pool_max_threads gauge&#10;executor_pool_max_threads{name=&quot;applicationTaskExecutor&quot;,} 2.147483647E9&#10;# HELP jvm_threads_daemon_threads The current number of live daemon threads&#10;# TYPE jvm_threads_daemon_threads gauge&#10;jvm_threads_daemon_threads 20.0&#10;# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management&#10;# TYPE jvm_memory_max_bytes gauge&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.21962496E8&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 4.217372672E9&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 7667712.0&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 1.073741824E9&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 1.22028032E8&#10;# HELP hikaricp_connections_min Min connections&#10;# TYPE hikaricp_connections_min gauge&#10;hikaricp_connections_min{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP jvm_compilation_time_ms_total The approximate accumulated elapsed time spent in compilation&#10;# TYPE jvm_compilation_time_ms_total counter&#10;jvm_compilation_time_ms_total{compiler=&quot;HotSpot 64-Bit Tiered Compilers&quot;,} 23284.0&#10;# HELP tomcat_sessions_rejected_sessions_total  &#10;# TYPE tomcat_sessions_rejected_sessions_total counter&#10;tomcat_sessions_rejected_sessions_total 0.0&#10;# HELP executor_pool_core_threads The core number of threads for the pool&#10;# TYPE executor_pool_core_threads gauge&#10;executor_pool_core_threads{name=&quot;applicationTaskExecutor&quot;,} 8.0&#10;# HELP jdbc_connections_idle Number of established but idle connections.&#10;# TYPE jdbc_connections_idle gauge&#10;jdbc_connections_idle{name=&quot;dataSource&quot;,} 10.0&#10;# HELP system_cpu_count The number of processors available to the Java virtual machine&#10;# TYPE system_cpu_count gauge&#10;system_cpu_count 24.0&#10;# HELP jdbc_connections_min Minimum number of idle connections in the pool.&#10;# TYPE jdbc_connections_min gauge&#10;jdbc_connections_min{name=&quot;dataSource&quot;,} 10.0&#10;# HELP hikaricp_connections_timeout_total Connection timeout total count&#10;# TYPE hikaricp_connections_timeout_total counter&#10;hikaricp_connections_timeout_total{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP hikaricp_connections_idle Idle connections&#10;# TYPE hikaricp_connections_idle gauge&#10;hikaricp_connections_idle{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP hikaricp_connections_max Max connections&#10;# TYPE hikaricp_connections_max gauge&#10;hikaricp_connections_max{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP jvm_memory_used_bytes The amount of used memory&#10;# TYPE jvm_memory_used_bytes gauge&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.108992E7&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} 7932880.0&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 2.3728128E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} 7.166884E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 1385088.0&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} 1.4680064E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 9768624.0&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 5010048.0&#10;# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC&#10;# TYPE jvm_gc_memory_promoted_bytes_total counter&#10;jvm_gc_memory_promoted_bytes_total 1665536.0&#10;# HELP logback_events_total Number of log events that were enabled by the effective log level&#10;# TYPE logback_events_total counter&#10;logback_events_total{level=&quot;warn&quot;,} 0.0&#10;logback_events_total{level=&quot;debug&quot;,} 0.0&#10;logback_events_total{level=&quot;error&quot;,} 0.0&#10;logback_events_total{level=&quot;trace&quot;,} 0.0&#10;logback_events_total{level=&quot;info&quot;,} 5.0&#10;# HELP hikaricp_connections_pending Pending threads&#10;# TYPE hikaricp_connections_pending gauge&#10;hikaricp_connections_pending{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP executor_completed_tasks_total The approximate total number of tasks that have completed execution&#10;# TYPE executor_completed_tasks_total counter&#10;executor_completed_tasks_total{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP jvm_gc_live_data_size_bytes Size of long-lived heap memory pool after reclamation&#10;# TYPE jvm_gc_live_data_size_bytes gauge&#10;jvm_gc_live_data_size_bytes 0.0&#10;# HELP tomcat_sessions_active_max_sessions  &#10;# TYPE tomcat_sessions_active_max_sessions gauge&#10;tomcat_sessions_active_max_sessions 0.0&#10;# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine&#10;# TYPE jvm_classes_loaded_classes gauge&#10;jvm_classes_loaded_classes 14740.0&#10;# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use&#10;# TYPE jvm_memory_committed_bytes gauge&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.2517376E7&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} 8388608.0&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 4.8234496E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} 7.2286208E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 3276800.0&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} 5.6623104E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 1.0092544E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 5898240.0&#10;# HELP tomcat_sessions_created_sessions_total  &#10;# TYPE tomcat_sessions_created_sessions_total counter&#10;tomcat_sessions_created_sessions_total 0.0&#10;# HELP executor_queue_remaining_tasks The number of additional elements that this queue can ideally accept without blocking&#10;# TYPE executor_queue_remaining_tasks gauge&#10;executor_queue_remaining_tasks{name=&quot;applicationTaskExecutor&quot;,} 2.147483647E9&#10;# HELP hikaricp_connections_usage_seconds Connection usage time&#10;# TYPE hikaricp_connections_usage_seconds summary&#10;hikaricp_connections_usage_seconds_count{pool=&quot;HikariPool-1&quot;,} 10.0&#10;hikaricp_connections_usage_seconds_sum{pool=&quot;HikariPool-1&quot;,} 0.054&#10;# HELP hikaricp_connections_usage_seconds_max Connection usage time&#10;# TYPE hikaricp_connections_usage_seconds_max gauge&#10;hikaricp_connections_usage_seconds_max{pool=&quot;HikariPool-1&quot;,} 0.053&#10;# HELP http_server_requests_active_seconds_max  &#10;# TYPE http_server_requests_active_seconds_max gauge&#10;http_server_requests_active_seconds_max{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 0.2477396&#10;# HELP http_server_requests_active_seconds  &#10;# TYPE http_server_requests_active_seconds summary&#10;http_server_requests_active_seconds_active_count{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 1.0&#10;http_server_requests_active_seconds_duration_sum{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 0.2477209&#10;# HELP executor_active_threads The approximate number of threads that are actively executing tasks&#10;# TYPE executor_active_threads gauge&#10;executor_active_threads{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool&#10;# TYPE jvm_buffer_count_buffers gauge&#10;jvm_buffer_count_buffers{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_count_buffers{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_count_buffers{id=&quot;direct&quot;,} 2.0&#10;# HELP hikaricp_connections_acquire_seconds Connection acquire time&#10;# TYPE hikaricp_connections_acquire_seconds summary&#10;hikaricp_connections_acquire_seconds_count{pool=&quot;HikariPool-1&quot;,} 10.0&#10;hikaricp_connections_acquire_seconds_sum{pool=&quot;HikariPool-1&quot;,} 8.93E-5&#10;# HELP hikaricp_connections_acquire_seconds_max Connection acquire time&#10;# TYPE hikaricp_connections_acquire_seconds_max gauge&#10;hikaricp_connections_acquire_seconds_max{pool=&quot;HikariPool-1&quot;,} 4.71E-5&#10;# HELP tomcat_sessions_active_current_sessions  &#10;# TYPE tomcat_sessions_active_current_sessions gauge&#10;tomcat_sessions_active_current_sessions 0.0&#10;# HELP process_start_time_seconds Start time of the process since unix epoch.&#10;# TYPE process_start_time_seconds gauge&#10;process_start_time_seconds 1.716229598321E9&#10;# HELP process_uptime_seconds The uptime of the Java virtual machine&#10;# TYPE process_uptime_seconds gauge&#10;process_uptime_seconds 13.506&#10;# HELP application_started_time_seconds Time taken to start the application&#10;# TYPE application_started_time_seconds gauge&#10;application_started_time_seconds{main_application_class=&quot;ru.gb.Lesson11Application&quot;,} 4.244&#10;# HELP jvm_threads_started_threads_total The total number of application threads started in the JVM&#10;# TYPE jvm_threads_started_threads_total counter&#10;jvm_threads_started_threads_total 28.0&#10;# HELP jdbc_connections_max Maximum number of active connections that can be allocated at the same time.&#10;# TYPE jdbc_connections_max gauge&#10;jdbc_connections_max{name=&quot;dataSource&quot;,} 10.0&#10;# HELP hikaricp_connections_creation_seconds_max Connection creation time&#10;# TYPE hikaricp_connections_creation_seconds_max gauge&#10;hikaricp_connections_creation_seconds_max{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP hikaricp_connections_creation_seconds Connection creation time&#10;# TYPE hikaricp_connections_creation_seconds summary&#10;hikaricp_connections_creation_seconds_count{pool=&quot;HikariPool-1&quot;,} 0.0&#10;hikaricp_connections_creation_seconds_sum{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP process_cpu_usage The &quot;recent cpu usage&quot; for the Java Virtual Machine process&#10;# TYPE process_cpu_usage gauge&#10;process_cpu_usage 0.0&#10;# HELP jdbc_connections_active Current number of active connections that have been allocated from the data source.&#10;# TYPE jdbc_connections_active gauge&#10;jdbc_connections_active{name=&quot;dataSource&quot;,} 0.0&#10;# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool&#10;# TYPE jvm_buffer_memory_used_bytes gauge&#10;jvm_buffer_memory_used_bytes{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_memory_used_bytes{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_memory_used_bytes{id=&quot;direct&quot;,} 16384.0&#10;" />
+          <option name="url" value="/actuator/prometheus" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -120,20 +319,20 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator/prometheus" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:7,&quot;name&quot;:&quot;Raymundo Boehm V&quot;,&quot;email&quot;:&quot;dorsey.rolfson@example.com&quot;,&quot;age&quot;:37},{&quot;id&quot;:8,&quot;name&quot;:&quot;Stanford Feeney&quot;,&quot;email&quot;:&quot;daria.ziemann@example.com&quot;,&quot;age&quot;:78},{&quot;id&quot;:9,&quot;name&quot;:&quot;Adan Greenfelder&quot;,&quot;email&quot;:&quot;elisabeth.bins@example.com&quot;,&quot;age&quot;:75},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33},{&quot;id&quot;:10,&quot;name&quot;:&quot;Shayla Hoppe&quot;,&quot;email&quot;:&quot;rosario.mraz@example.com&quot;,&quot;age&quot;:27},{&quot;id&quot;:11,&quot;name&quot;:&quot;Lauren Auer&quot;,&quot;email&quot;:&quot;7d8552b3-fe93-454c-aa2b-67721d1f4533@example.com&quot;,&quot;age&quot;:30},{&quot;id&quot;:12,&quot;name&quot;:&quot;Anisa Gibson&quot;,&quot;email&quot;:&quot;eun.crist@example.com&quot;,&quot;age&quot;:57},{&quot;id&quot;:13,&quot;name&quot;:&quot;Valentina Sauer&quot;,&quot;email&quot;:&quot;edfc7b89-c0c7-4f78-95ed-e486a63e29e3@example.com&quot;,&quot;age&quot;:30},{&quot;id&quot;:14,&quot;name&quot;:&quot;Tyson Weber&quot;,&quot;email&quot;:&quot;herschel.cartwright@example.com&quot;,&quot;age&quot;:84},{&quot;id&quot;:15,&quot;name&quot;:&quot;Nelia Schmeler&quot;,&quot;email&quot;:&quot;66c98ab8-1ce4-44d3-944f-538561e7654f@example.com&quot;,&quot;age&quot;:49},{&quot;id&quot;:16,&quot;name&quot;:&quot;Krysten Cole&quot;,&quot;email&quot;:&quot;reyes.flatley@example.com&quot;,&quot;age&quot;:33},{&quot;id&quot;:18,&quot;name&quot;:&quot;Sherwood Jones&quot;,&quot;email&quot;:&quot;suanne.bashirian@example.com&quot;,&quot;age&quot;:63},{&quot;id&quot;:20,&quot;name&quot;:&quot;Rosendo Cruickshank&quot;,&quot;email&quot;:&quot;carol.beatty@example.com&quot;,&quot;age&quot;:82},{&quot;id&quot;:21,&quot;name&quot;:&quot;7d2d6a81-a781-46c5-96c1-677005f391d9&quot;,&quot;email&quot;:&quot;c18762ce-f4f5-4cfd-96a4-24a3f1c70365@example.com&quot;,&quot;age&quot;:85},{&quot;id&quot;:22,&quot;name&quot;:&quot;Dr. Everette Daugherty&quot;,&quot;email&quot;:&quot;barbra.parisian@example.com&quot;,&quot;age&quot;:23},{&quot;id&quot;:23,&quot;name&quot;:&quot;Altagracia Graham&quot;,&quot;email&quot;:&quot;5bfd3ba6-149b-4478-b684-f7f40b6a2101@example.com&quot;,&quot;age&quot;:74},{&quot;id&quot;:25,&quot;name&quot;:&quot;84280466-8d0c-4905-bdf4-6260b1f36d64&quot;,&quot;email&quot;:&quot;68433eff-8894-4eb7-abd6-a0e18957229b@example.com&quot;,&quot;age&quot;:97},{&quot;id&quot;:26,&quot;name&quot;:&quot;Bella Fritsch&quot;,&quot;email&quot;:&quot;chris.bogan@example.com&quot;,&quot;age&quot;:66},{&quot;id&quot;:27,&quot;name&quot;:&quot;Dr. Tyrone Marks&quot;,&quot;email&quot;:&quot;dab6bd82-e4a1-4142-b62f-9a0eaf6ab28e@example.com&quot;,&quot;age&quot;:50},{&quot;id&quot;:29,&quot;name&quot;:&quot;3ad96efa-dded-47d1-a327-c03de5f99fd3&quot;,&quot;email&quot;:&quot;b4aa1461-a07e-436f-85f1-002a4121a27f@example.com&quot;,&quot;age&quot;:61},{&quot;id&quot;:30,&quot;name&quot;:&quot;Alberto Herzog&quot;,&quot;email&quot;:&quot;ambrose.haag@example.com&quot;,&quot;age&quot;:71}]" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator/prometheus&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="# HELP jvm_memory_usage_after_gc_percent The percentage of long-lived heap pool used after the last GC event, in the range [0..1]&#10;# TYPE jvm_memory_usage_after_gc_percent gauge&#10;jvm_memory_usage_after_gc_percent{area=&quot;heap&quot;,pool=&quot;long-lived&quot;,} 0.006624454173918448&#10;# HELP disk_free_bytes Usable space for path&#10;# TYPE disk_free_bytes gauge&#10;disk_free_bytes{path=&quot;C:\\Development\\Repository\\GeekBrains\\TECH SPECIALIZATION\\JAVA WEB DEVELOPMENT\\java_spring\\spring-framework\\.&quot;,} 6.62628528128E11&#10;# HELP jvm_memory_used_bytes The amount of used memory&#10;# TYPE jvm_memory_used_bytes gauge&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.1468032E7&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} 5341120.0&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 2.7937792E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} 7.26006E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 1387520.0&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} 6291456.0&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 9879528.0&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 5204480.0&#10;# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next&#10;# TYPE jvm_gc_memory_allocated_bytes_total counter&#10;jvm_gc_memory_allocated_bytes_total 3.145728E7&#10;# HELP hikaricp_connections_max Max connections&#10;# TYPE hikaricp_connections_max gauge&#10;hikaricp_connections_max{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP jvm_gc_overhead_percent An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]&#10;# TYPE jvm_gc_overhead_percent gauge&#10;jvm_gc_overhead_percent 3.4429338375857294E-5&#10;# HELP tomcat_sessions_active_max_sessions  &#10;# TYPE tomcat_sessions_active_max_sessions gauge&#10;tomcat_sessions_active_max_sessions 0.0&#10;# HELP jvm_threads_states_threads The current number of threads&#10;# TYPE jvm_threads_states_threads gauge&#10;jvm_threads_states_threads{state=&quot;runnable&quot;,} 9.0&#10;jvm_threads_states_threads{state=&quot;blocked&quot;,} 0.0&#10;jvm_threads_states_threads{state=&quot;waiting&quot;,} 11.0&#10;jvm_threads_states_threads{state=&quot;timed-waiting&quot;,} 4.0&#10;jvm_threads_states_threads{state=&quot;new&quot;,} 0.0&#10;jvm_threads_states_threads{state=&quot;terminated&quot;,} 0.0&#10;# HELP tomcat_sessions_rejected_sessions_total  &#10;# TYPE tomcat_sessions_rejected_sessions_total counter&#10;tomcat_sessions_rejected_sessions_total 0.0&#10;# HELP hikaricp_connections_creation_seconds_max Connection creation time&#10;# TYPE hikaricp_connections_creation_seconds_max gauge&#10;hikaricp_connections_creation_seconds_max{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP hikaricp_connections_creation_seconds Connection creation time&#10;# TYPE hikaricp_connections_creation_seconds summary&#10;hikaricp_connections_creation_seconds_count{pool=&quot;HikariPool-1&quot;,} 0.0&#10;hikaricp_connections_creation_seconds_sum{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP executor_active_threads The approximate number of threads that are actively executing tasks&#10;# TYPE executor_active_threads gauge&#10;executor_active_threads{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP jvm_gc_pause_seconds Time spent in GC pause&#10;# TYPE jvm_gc_pause_seconds summary&#10;jvm_gc_pause_seconds_count{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 1.0&#10;jvm_gc_pause_seconds_sum{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 0.004&#10;# HELP jvm_gc_pause_seconds_max Time spent in GC pause&#10;# TYPE jvm_gc_pause_seconds_max gauge&#10;jvm_gc_pause_seconds_max{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 0.004&#10;# HELP executor_pool_core_threads The core number of threads for the pool&#10;# TYPE executor_pool_core_threads gauge&#10;executor_pool_core_threads{name=&quot;applicationTaskExecutor&quot;,} 8.0&#10;# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management&#10;# TYPE jvm_memory_max_bytes gauge&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.21962496E8&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 4.217372672E9&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 7667712.0&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 1.073741824E9&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 1.22028032E8&#10;# HELP executor_queued_tasks The approximate number of tasks that are queued for execution&#10;# TYPE executor_queued_tasks gauge&#10;executor_queued_tasks{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP executor_pool_max_threads The maximum allowed number of threads in the pool&#10;# TYPE executor_pool_max_threads gauge&#10;executor_pool_max_threads{name=&quot;applicationTaskExecutor&quot;,} 2.147483647E9&#10;# HELP hikaricp_connections_usage_seconds Connection usage time&#10;# TYPE hikaricp_connections_usage_seconds summary&#10;hikaricp_connections_usage_seconds_count{pool=&quot;HikariPool-1&quot;,} 10.0&#10;hikaricp_connections_usage_seconds_sum{pool=&quot;HikariPool-1&quot;,} 0.033&#10;# HELP hikaricp_connections_usage_seconds_max Connection usage time&#10;# TYPE hikaricp_connections_usage_seconds_max gauge&#10;hikaricp_connections_usage_seconds_max{pool=&quot;HikariPool-1&quot;,} 0.033&#10;# HELP tomcat_sessions_active_current_sessions  &#10;# TYPE tomcat_sessions_active_current_sessions gauge&#10;tomcat_sessions_active_current_sessions 0.0&#10;# HELP http_server_requests_seconds  &#10;# TYPE http_server_requests_seconds summary&#10;http_server_requests_seconds_count{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/prometheus&quot;,} 1.0&#10;http_server_requests_seconds_sum{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/prometheus&quot;,} 0.2173834&#10;http_server_requests_seconds_count{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator&quot;,} 1.0&#10;http_server_requests_seconds_sum{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator&quot;,} 0.0496029&#10;http_server_requests_seconds_count{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/metrics&quot;,} 1.0&#10;http_server_requests_seconds_sum{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/metrics&quot;,} 0.0130421&#10;# HELP http_server_requests_seconds_max  &#10;# TYPE http_server_requests_seconds_max gauge&#10;http_server_requests_seconds_max{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/prometheus&quot;,} 0.2173834&#10;http_server_requests_seconds_max{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator&quot;,} 0.0496029&#10;http_server_requests_seconds_max{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/metrics&quot;,} 0.0130421&#10;# HELP executor_completed_tasks_total The approximate total number of tasks that have completed execution&#10;# TYPE executor_completed_tasks_total counter&#10;executor_completed_tasks_total{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP executor_pool_size_threads The current number of threads in the pool&#10;# TYPE executor_pool_size_threads gauge&#10;executor_pool_size_threads{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP jdbc_connections_max Maximum number of active connections that can be allocated at the same time.&#10;# TYPE jdbc_connections_max gauge&#10;jdbc_connections_max{name=&quot;dataSource&quot;,} 10.0&#10;# HELP jdbc_connections_min Minimum number of idle connections in the pool.&#10;# TYPE jdbc_connections_min gauge&#10;jdbc_connections_min{name=&quot;dataSource&quot;,} 10.0&#10;# HELP application_ready_time_seconds Time taken for the application to be ready to service requests&#10;# TYPE application_ready_time_seconds gauge&#10;application_ready_time_seconds{main_application_class=&quot;ru.gb.Lesson11Application&quot;,} 4.568&#10;# HELP hikaricp_connections_pending Pending threads&#10;# TYPE hikaricp_connections_pending gauge&#10;hikaricp_connections_pending{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP hikaricp_connections_min Min connections&#10;# TYPE hikaricp_connections_min gauge&#10;hikaricp_connections_min{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP executor_queue_remaining_tasks The number of additional elements that this queue can ideally accept without blocking&#10;# TYPE executor_queue_remaining_tasks gauge&#10;executor_queue_remaining_tasks{name=&quot;applicationTaskExecutor&quot;,} 2.147483647E9&#10;# HELP tomcat_sessions_created_sessions_total  &#10;# TYPE tomcat_sessions_created_sessions_total counter&#10;tomcat_sessions_created_sessions_total 0.0&#10;# HELP http_server_requests_active_seconds_max  &#10;# TYPE http_server_requests_active_seconds_max gauge&#10;http_server_requests_active_seconds_max{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 0.0023977&#10;# HELP http_server_requests_active_seconds  &#10;# TYPE http_server_requests_active_seconds summary&#10;http_server_requests_active_seconds_active_count{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 1.0&#10;http_server_requests_active_seconds_duration_sum{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 0.0023926&#10;# HELP jvm_classes_unloaded_classes_total The total number of classes unloaded since the Java virtual machine has started execution&#10;# TYPE jvm_classes_unloaded_classes_total counter&#10;jvm_classes_unloaded_classes_total 0.0&#10;# HELP hikaricp_connections_acquire_seconds Connection acquire time&#10;# TYPE hikaricp_connections_acquire_seconds summary&#10;hikaricp_connections_acquire_seconds_count{pool=&quot;HikariPool-1&quot;,} 10.0&#10;hikaricp_connections_acquire_seconds_sum{pool=&quot;HikariPool-1&quot;,} 5.36E-5&#10;# HELP hikaricp_connections_acquire_seconds_max Connection acquire time&#10;# TYPE hikaricp_connections_acquire_seconds_max gauge&#10;hikaricp_connections_acquire_seconds_max{pool=&quot;HikariPool-1&quot;,} 2.17E-5&#10;# HELP logback_events_total Number of log events that were enabled by the effective log level&#10;# TYPE logback_events_total counter&#10;logback_events_total{level=&quot;warn&quot;,} 0.0&#10;logback_events_total{level=&quot;debug&quot;,} 0.0&#10;logback_events_total{level=&quot;error&quot;,} 0.0&#10;logback_events_total{level=&quot;trace&quot;,} 0.0&#10;logback_events_total{level=&quot;info&quot;,} 5.0&#10;# HELP hikaricp_connections Total connections&#10;# TYPE hikaricp_connections gauge&#10;hikaricp_connections{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP hikaricp_connections_timeout_total Connection timeout total count&#10;# TYPE hikaricp_connections_timeout_total counter&#10;hikaricp_connections_timeout_total{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP jvm_info JVM version info&#10;# TYPE jvm_info gauge&#10;jvm_info{runtime=&quot;Java(TM) SE Runtime Environment&quot;,vendor=&quot;Oracle Corporation&quot;,version=&quot;17.0.10+11-LTS-240&quot;,} 1.0&#10;# HELP jvm_compilation_time_ms_total The approximate accumulated elapsed time spent in compilation&#10;# TYPE jvm_compilation_time_ms_total counter&#10;jvm_compilation_time_ms_total{compiler=&quot;HotSpot 64-Bit Tiered Compilers&quot;,} 23987.0&#10;# HELP tomcat_sessions_expired_sessions_total  &#10;# TYPE tomcat_sessions_expired_sessions_total counter&#10;tomcat_sessions_expired_sessions_total 0.0&#10;# HELP jdbc_connections_active Current number of active connections that have been allocated from the data source.&#10;# TYPE jdbc_connections_active gauge&#10;jdbc_connections_active{name=&quot;dataSource&quot;,} 0.0&#10;# HELP process_cpu_usage The &quot;recent cpu usage&quot; for the Java Virtual Machine process&#10;# TYPE process_cpu_usage gauge&#10;process_cpu_usage 1.2716390383752597E-5&#10;# HELP process_uptime_seconds The uptime of the Java virtual machine&#10;# TYPE process_uptime_seconds gauge&#10;process_uptime_seconds 178.606&#10;# HELP process_start_time_seconds Start time of the process since unix epoch.&#10;# TYPE process_start_time_seconds gauge&#10;process_start_time_seconds 1.716229248224E9&#10;# HELP jvm_gc_live_data_size_bytes Size of long-lived heap memory pool after reclamation&#10;# TYPE jvm_gc_live_data_size_bytes gauge&#10;jvm_gc_live_data_size_bytes 0.0&#10;# HELP jvm_gc_max_data_size_bytes Max size of long-lived heap memory pool&#10;# TYPE jvm_gc_max_data_size_bytes gauge&#10;jvm_gc_max_data_size_bytes 4.217372672E9&#10;# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool&#10;# TYPE jvm_buffer_total_capacity_bytes gauge&#10;jvm_buffer_total_capacity_bytes{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_total_capacity_bytes{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_total_capacity_bytes{id=&quot;direct&quot;,} 40960.0&#10;# HELP spring_data_repository_invocations_seconds_max Duration of repository invocations&#10;# TYPE spring_data_repository_invocations_seconds_max gauge&#10;spring_data_repository_invocations_seconds_max{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 0.0170346&#10;# HELP spring_data_repository_invocations_seconds Duration of repository invocations&#10;# TYPE spring_data_repository_invocations_seconds summary&#10;spring_data_repository_invocations_seconds_count{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 10.0&#10;spring_data_repository_invocations_seconds_sum{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 0.0180854&#10;# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads&#10;# TYPE jvm_threads_live_threads gauge&#10;jvm_threads_live_threads 24.0&#10;# HELP jvm_threads_started_threads_total The total number of application threads started in the JVM&#10;# TYPE jvm_threads_started_threads_total counter&#10;jvm_threads_started_threads_total 28.0&#10;# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset&#10;# TYPE jvm_threads_peak_threads gauge&#10;jvm_threads_peak_threads 25.0&#10;# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC&#10;# TYPE jvm_gc_memory_promoted_bytes_total counter&#10;jvm_gc_memory_promoted_bytes_total 2721792.0&#10;# HELP tomcat_sessions_alive_max_seconds  &#10;# TYPE tomcat_sessions_alive_max_seconds gauge&#10;tomcat_sessions_alive_max_seconds 0.0&#10;# HELP system_cpu_count The number of processors available to the Java virtual machine&#10;# TYPE system_cpu_count gauge&#10;system_cpu_count 24.0&#10;# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use&#10;# TYPE jvm_memory_committed_bytes gauge&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.1730944E7&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} 6291456.0&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 4.4040192E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} 7.3203712E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 3342336.0&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} 3.3554432E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 1.015808E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 5767168.0&#10;# HELP system_cpu_usage The &quot;recent cpu usage&quot; of the system the application is running in&#10;# TYPE system_cpu_usage gauge&#10;system_cpu_usage 0.009157972572651052&#10;# HELP jvm_threads_daemon_threads The current number of live daemon threads&#10;# TYPE jvm_threads_daemon_threads gauge&#10;jvm_threads_daemon_threads 20.0&#10;# HELP application_started_time_seconds Time taken to start the application&#10;# TYPE application_started_time_seconds gauge&#10;application_started_time_seconds{main_application_class=&quot;ru.gb.Lesson11Application&quot;,} 4.349&#10;# HELP jdbc_connections_idle Number of established but idle connections.&#10;# TYPE jdbc_connections_idle gauge&#10;jdbc_connections_idle{name=&quot;dataSource&quot;,} 10.0&#10;# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool&#10;# TYPE jvm_buffer_memory_used_bytes gauge&#10;jvm_buffer_memory_used_bytes{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_memory_used_bytes{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_memory_used_bytes{id=&quot;direct&quot;,} 40960.0&#10;# HELP hikaricp_connections_active Active connections&#10;# TYPE hikaricp_connections_active gauge&#10;hikaricp_connections_active{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP disk_total_bytes Total space for path&#10;# TYPE disk_total_bytes gauge&#10;disk_total_bytes{path=&quot;C:\\Development\\Repository\\GeekBrains\\TECH SPECIALIZATION\\JAVA WEB DEVELOPMENT\\java_spring\\spring-framework\\.&quot;,} 1.00095596544E12&#10;# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool&#10;# TYPE jvm_buffer_count_buffers gauge&#10;jvm_buffer_count_buffers{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_count_buffers{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_count_buffers{id=&quot;direct&quot;,} 5.0&#10;# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine&#10;# TYPE jvm_classes_loaded_classes gauge&#10;jvm_classes_loaded_classes 14902.0&#10;# HELP hikaricp_connections_idle Idle connections&#10;# TYPE hikaricp_connections_idle gauge&#10;hikaricp_connections_idle{pool=&quot;HikariPool-1&quot;,} 10.0&#10;" />
+          <option name="url" value="/actuator/prometheus" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -145,20 +344,20 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator/prometheus" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:7,&quot;name&quot;:&quot;Raymundo Boehm V&quot;,&quot;email&quot;:&quot;dorsey.rolfson@example.com&quot;,&quot;age&quot;:37},{&quot;id&quot;:8,&quot;name&quot;:&quot;Stanford Feeney&quot;,&quot;email&quot;:&quot;daria.ziemann@example.com&quot;,&quot;age&quot;:78},{&quot;id&quot;:9,&quot;name&quot;:&quot;Adan Greenfelder&quot;,&quot;email&quot;:&quot;elisabeth.bins@example.com&quot;,&quot;age&quot;:75},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}]" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator/prometheus&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="# HELP jvm_memory_usage_after_gc_percent The percentage of long-lived heap pool used after the last GC event, in the range [0..1]&#10;# TYPE jvm_memory_usage_after_gc_percent gauge&#10;jvm_memory_usage_after_gc_percent{area=&quot;heap&quot;,pool=&quot;long-lived&quot;,} 0.006624454173918448&#10;# HELP disk_free_bytes Usable space for path&#10;# TYPE disk_free_bytes gauge&#10;disk_free_bytes{path=&quot;C:\\Development\\Repository\\GeekBrains\\TECH SPECIALIZATION\\JAVA WEB DEVELOPMENT\\java_spring\\spring-framework\\.&quot;,} 6.62620516352E11&#10;# HELP jvm_memory_used_bytes The amount of used memory&#10;# TYPE jvm_memory_used_bytes gauge&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.1390848E7&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} 5341120.0&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 2.7937792E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} 7.2447848E7&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 1385216.0&#10;jvm_memory_used_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} 6291456.0&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 9861608.0&#10;jvm_memory_used_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 5188224.0&#10;# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next&#10;# TYPE jvm_gc_memory_allocated_bytes_total counter&#10;jvm_gc_memory_allocated_bytes_total 3.145728E7&#10;# HELP hikaricp_connections_max Max connections&#10;# TYPE hikaricp_connections_max gauge&#10;hikaricp_connections_max{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP jvm_gc_overhead_percent An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]&#10;# TYPE jvm_gc_overhead_percent gauge&#10;jvm_gc_overhead_percent 4.882463984730231E-5&#10;# HELP tomcat_sessions_active_max_sessions  &#10;# TYPE tomcat_sessions_active_max_sessions gauge&#10;tomcat_sessions_active_max_sessions 0.0&#10;# HELP jvm_threads_states_threads The current number of threads&#10;# TYPE jvm_threads_states_threads gauge&#10;jvm_threads_states_threads{state=&quot;runnable&quot;,} 9.0&#10;jvm_threads_states_threads{state=&quot;blocked&quot;,} 0.0&#10;jvm_threads_states_threads{state=&quot;waiting&quot;,} 11.0&#10;jvm_threads_states_threads{state=&quot;timed-waiting&quot;,} 4.0&#10;jvm_threads_states_threads{state=&quot;new&quot;,} 0.0&#10;jvm_threads_states_threads{state=&quot;terminated&quot;,} 0.0&#10;# HELP tomcat_sessions_rejected_sessions_total  &#10;# TYPE tomcat_sessions_rejected_sessions_total counter&#10;tomcat_sessions_rejected_sessions_total 0.0&#10;# HELP hikaricp_connections_creation_seconds_max Connection creation time&#10;# TYPE hikaricp_connections_creation_seconds_max gauge&#10;hikaricp_connections_creation_seconds_max{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP hikaricp_connections_creation_seconds Connection creation time&#10;# TYPE hikaricp_connections_creation_seconds summary&#10;hikaricp_connections_creation_seconds_count{pool=&quot;HikariPool-1&quot;,} 0.0&#10;hikaricp_connections_creation_seconds_sum{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP executor_active_threads The approximate number of threads that are actively executing tasks&#10;# TYPE executor_active_threads gauge&#10;executor_active_threads{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP jvm_gc_pause_seconds Time spent in GC pause&#10;# TYPE jvm_gc_pause_seconds summary&#10;jvm_gc_pause_seconds_count{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 1.0&#10;jvm_gc_pause_seconds_sum{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 0.004&#10;# HELP jvm_gc_pause_seconds_max Time spent in GC pause&#10;# TYPE jvm_gc_pause_seconds_max gauge&#10;jvm_gc_pause_seconds_max{action=&quot;end of minor GC&quot;,cause=&quot;G1 Evacuation Pause&quot;,gc=&quot;G1 Young Generation&quot;,} 0.004&#10;# HELP executor_pool_core_threads The core number of threads for the pool&#10;# TYPE executor_pool_core_threads gauge&#10;executor_pool_core_threads{name=&quot;applicationTaskExecutor&quot;,} 8.0&#10;# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management&#10;# TYPE jvm_memory_max_bytes gauge&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.21962496E8&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 4.217372672E9&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 7667712.0&#10;jvm_memory_max_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} -1.0&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 1.073741824E9&#10;jvm_memory_max_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 1.22028032E8&#10;# HELP executor_queued_tasks The approximate number of tasks that are queued for execution&#10;# TYPE executor_queued_tasks gauge&#10;executor_queued_tasks{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP executor_pool_max_threads The maximum allowed number of threads in the pool&#10;# TYPE executor_pool_max_threads gauge&#10;executor_pool_max_threads{name=&quot;applicationTaskExecutor&quot;,} 2.147483647E9&#10;# HELP hikaricp_connections_usage_seconds Connection usage time&#10;# TYPE hikaricp_connections_usage_seconds summary&#10;hikaricp_connections_usage_seconds_count{pool=&quot;HikariPool-1&quot;,} 10.0&#10;hikaricp_connections_usage_seconds_sum{pool=&quot;HikariPool-1&quot;,} 0.033&#10;# HELP hikaricp_connections_usage_seconds_max Connection usage time&#10;# TYPE hikaricp_connections_usage_seconds_max gauge&#10;hikaricp_connections_usage_seconds_max{pool=&quot;HikariPool-1&quot;,} 0.033&#10;# HELP tomcat_sessions_active_current_sessions  &#10;# TYPE tomcat_sessions_active_current_sessions gauge&#10;tomcat_sessions_active_current_sessions 0.0&#10;# HELP http_server_requests_seconds  &#10;# TYPE http_server_requests_seconds summary&#10;http_server_requests_seconds_count{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator&quot;,} 1.0&#10;http_server_requests_seconds_sum{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator&quot;,} 0.0496029&#10;http_server_requests_seconds_count{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/metrics&quot;,} 1.0&#10;http_server_requests_seconds_sum{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/metrics&quot;,} 0.0130421&#10;# HELP http_server_requests_seconds_max  &#10;# TYPE http_server_requests_seconds_max gauge&#10;http_server_requests_seconds_max{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator&quot;,} 0.0496029&#10;http_server_requests_seconds_max{error=&quot;none&quot;,exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;/actuator/metrics&quot;,} 0.0130421&#10;# HELP executor_completed_tasks_total The approximate total number of tasks that have completed execution&#10;# TYPE executor_completed_tasks_total counter&#10;executor_completed_tasks_total{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP executor_pool_size_threads The current number of threads in the pool&#10;# TYPE executor_pool_size_threads gauge&#10;executor_pool_size_threads{name=&quot;applicationTaskExecutor&quot;,} 0.0&#10;# HELP jdbc_connections_max Maximum number of active connections that can be allocated at the same time.&#10;# TYPE jdbc_connections_max gauge&#10;jdbc_connections_max{name=&quot;dataSource&quot;,} 10.0&#10;# HELP jdbc_connections_min Minimum number of idle connections in the pool.&#10;# TYPE jdbc_connections_min gauge&#10;jdbc_connections_min{name=&quot;dataSource&quot;,} 10.0&#10;# HELP application_ready_time_seconds Time taken for the application to be ready to service requests&#10;# TYPE application_ready_time_seconds gauge&#10;application_ready_time_seconds{main_application_class=&quot;ru.gb.Lesson11Application&quot;,} 4.568&#10;# HELP hikaricp_connections_pending Pending threads&#10;# TYPE hikaricp_connections_pending gauge&#10;hikaricp_connections_pending{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP hikaricp_connections_min Min connections&#10;# TYPE hikaricp_connections_min gauge&#10;hikaricp_connections_min{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP executor_queue_remaining_tasks The number of additional elements that this queue can ideally accept without blocking&#10;# TYPE executor_queue_remaining_tasks gauge&#10;executor_queue_remaining_tasks{name=&quot;applicationTaskExecutor&quot;,} 2.147483647E9&#10;# HELP tomcat_sessions_created_sessions_total  &#10;# TYPE tomcat_sessions_created_sessions_total counter&#10;tomcat_sessions_created_sessions_total 0.0&#10;# HELP http_server_requests_active_seconds_max  &#10;# TYPE http_server_requests_active_seconds_max gauge&#10;http_server_requests_active_seconds_max{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 0.0085439&#10;# HELP http_server_requests_active_seconds  &#10;# TYPE http_server_requests_active_seconds summary&#10;http_server_requests_active_seconds_active_count{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 1.0&#10;http_server_requests_active_seconds_duration_sum{exception=&quot;none&quot;,method=&quot;GET&quot;,outcome=&quot;SUCCESS&quot;,status=&quot;200&quot;,uri=&quot;UNKNOWN&quot;,} 0.0085281&#10;# HELP jvm_classes_unloaded_classes_total The total number of classes unloaded since the Java virtual machine has started execution&#10;# TYPE jvm_classes_unloaded_classes_total counter&#10;jvm_classes_unloaded_classes_total 0.0&#10;# HELP hikaricp_connections_acquire_seconds Connection acquire time&#10;# TYPE hikaricp_connections_acquire_seconds summary&#10;hikaricp_connections_acquire_seconds_count{pool=&quot;HikariPool-1&quot;,} 10.0&#10;hikaricp_connections_acquire_seconds_sum{pool=&quot;HikariPool-1&quot;,} 5.36E-5&#10;# HELP hikaricp_connections_acquire_seconds_max Connection acquire time&#10;# TYPE hikaricp_connections_acquire_seconds_max gauge&#10;hikaricp_connections_acquire_seconds_max{pool=&quot;HikariPool-1&quot;,} 2.17E-5&#10;# HELP logback_events_total Number of log events that were enabled by the effective log level&#10;# TYPE logback_events_total counter&#10;logback_events_total{level=&quot;warn&quot;,} 0.0&#10;logback_events_total{level=&quot;debug&quot;,} 0.0&#10;logback_events_total{level=&quot;error&quot;,} 0.0&#10;logback_events_total{level=&quot;trace&quot;,} 0.0&#10;logback_events_total{level=&quot;info&quot;,} 5.0&#10;# HELP hikaricp_connections Total connections&#10;# TYPE hikaricp_connections gauge&#10;hikaricp_connections{pool=&quot;HikariPool-1&quot;,} 10.0&#10;# HELP hikaricp_connections_timeout_total Connection timeout total count&#10;# TYPE hikaricp_connections_timeout_total counter&#10;hikaricp_connections_timeout_total{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP jvm_info JVM version info&#10;# TYPE jvm_info gauge&#10;jvm_info{runtime=&quot;Java(TM) SE Runtime Environment&quot;,vendor=&quot;Oracle Corporation&quot;,version=&quot;17.0.10+11-LTS-240&quot;,} 1.0&#10;# HELP jvm_compilation_time_ms_total The approximate accumulated elapsed time spent in compilation&#10;# TYPE jvm_compilation_time_ms_total counter&#10;jvm_compilation_time_ms_total{compiler=&quot;HotSpot 64-Bit Tiered Compilers&quot;,} 23971.0&#10;# HELP tomcat_sessions_expired_sessions_total  &#10;# TYPE tomcat_sessions_expired_sessions_total counter&#10;tomcat_sessions_expired_sessions_total 0.0&#10;# HELP jdbc_connections_active Current number of active connections that have been allocated from the data source.&#10;# TYPE jdbc_connections_active gauge&#10;jdbc_connections_active{name=&quot;dataSource&quot;,} 0.0&#10;# HELP process_cpu_usage The &quot;recent cpu usage&quot; for the Java Virtual Machine process&#10;# TYPE process_cpu_usage gauge&#10;process_cpu_usage 0.0&#10;# HELP process_uptime_seconds The uptime of the Java virtual machine&#10;# TYPE process_uptime_seconds gauge&#10;process_uptime_seconds 127.409&#10;# HELP process_start_time_seconds Start time of the process since unix epoch.&#10;# TYPE process_start_time_seconds gauge&#10;process_start_time_seconds 1.716229248224E9&#10;# HELP jvm_gc_live_data_size_bytes Size of long-lived heap memory pool after reclamation&#10;# TYPE jvm_gc_live_data_size_bytes gauge&#10;jvm_gc_live_data_size_bytes 0.0&#10;# HELP jvm_gc_max_data_size_bytes Max size of long-lived heap memory pool&#10;# TYPE jvm_gc_max_data_size_bytes gauge&#10;jvm_gc_max_data_size_bytes 4.217372672E9&#10;# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool&#10;# TYPE jvm_buffer_total_capacity_bytes gauge&#10;jvm_buffer_total_capacity_bytes{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_total_capacity_bytes{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_total_capacity_bytes{id=&quot;direct&quot;,} 32768.0&#10;# HELP spring_data_repository_invocations_seconds_max Duration of repository invocations&#10;# TYPE spring_data_repository_invocations_seconds_max gauge&#10;spring_data_repository_invocations_seconds_max{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 0.0170346&#10;# HELP spring_data_repository_invocations_seconds Duration of repository invocations&#10;# TYPE spring_data_repository_invocations_seconds summary&#10;spring_data_repository_invocations_seconds_count{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 10.0&#10;spring_data_repository_invocations_seconds_sum{exception=&quot;None&quot;,method=&quot;save&quot;,repository=&quot;CustomerRepository&quot;,state=&quot;SUCCESS&quot;,} 0.0180854&#10;# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads&#10;# TYPE jvm_threads_live_threads gauge&#10;jvm_threads_live_threads 24.0&#10;# HELP jvm_threads_started_threads_total The total number of application threads started in the JVM&#10;# TYPE jvm_threads_started_threads_total counter&#10;jvm_threads_started_threads_total 28.0&#10;# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset&#10;# TYPE jvm_threads_peak_threads gauge&#10;jvm_threads_peak_threads 25.0&#10;# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC&#10;# TYPE jvm_gc_memory_promoted_bytes_total counter&#10;jvm_gc_memory_promoted_bytes_total 2721792.0&#10;# HELP tomcat_sessions_alive_max_seconds  &#10;# TYPE tomcat_sessions_alive_max_seconds gauge&#10;tomcat_sessions_alive_max_seconds 0.0&#10;# HELP system_cpu_count The number of processors available to the Java virtual machine&#10;# TYPE system_cpu_count gauge&#10;system_cpu_count 24.0&#10;# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use&#10;# TYPE jvm_memory_committed_bytes gauge&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'profiled nmethods'&quot;,} 1.1730944E7&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Survivor Space&quot;,} 6291456.0&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Old Gen&quot;,} 4.4040192E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;Metaspace&quot;,} 7.3138176E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-nmethods'&quot;,} 3342336.0&#10;jvm_memory_committed_bytes{area=&quot;heap&quot;,id=&quot;G1 Eden Space&quot;,} 3.3554432E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;Compressed Class Space&quot;,} 1.015808E7&#10;jvm_memory_committed_bytes{area=&quot;nonheap&quot;,id=&quot;CodeHeap 'non-profiled nmethods'&quot;,} 5767168.0&#10;# HELP system_cpu_usage The &quot;recent cpu usage&quot; of the system the application is running in&#10;# TYPE system_cpu_usage gauge&#10;system_cpu_usage -1.0&#10;# HELP jvm_threads_daemon_threads The current number of live daemon threads&#10;# TYPE jvm_threads_daemon_threads gauge&#10;jvm_threads_daemon_threads 20.0&#10;# HELP application_started_time_seconds Time taken to start the application&#10;# TYPE application_started_time_seconds gauge&#10;application_started_time_seconds{main_application_class=&quot;ru.gb.Lesson11Application&quot;,} 4.349&#10;# HELP jdbc_connections_idle Number of established but idle connections.&#10;# TYPE jdbc_connections_idle gauge&#10;jdbc_connections_idle{name=&quot;dataSource&quot;,} 10.0&#10;# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool&#10;# TYPE jvm_buffer_memory_used_bytes gauge&#10;jvm_buffer_memory_used_bytes{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_memory_used_bytes{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_memory_used_bytes{id=&quot;direct&quot;,} 32768.0&#10;# HELP hikaricp_connections_active Active connections&#10;# TYPE hikaricp_connections_active gauge&#10;hikaricp_connections_active{pool=&quot;HikariPool-1&quot;,} 0.0&#10;# HELP disk_total_bytes Total space for path&#10;# TYPE disk_total_bytes gauge&#10;disk_total_bytes{path=&quot;C:\\Development\\Repository\\GeekBrains\\TECH SPECIALIZATION\\JAVA WEB DEVELOPMENT\\java_spring\\spring-framework\\.&quot;,} 1.00095596544E12&#10;# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool&#10;# TYPE jvm_buffer_count_buffers gauge&#10;jvm_buffer_count_buffers{id=&quot;mapped - 'non-volatile memory'&quot;,} 0.0&#10;jvm_buffer_count_buffers{id=&quot;mapped&quot;,} 0.0&#10;jvm_buffer_count_buffers{id=&quot;direct&quot;,} 4.0&#10;# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine&#10;# TYPE jvm_classes_loaded_classes gauge&#10;jvm_classes_loaded_classes 14896.0&#10;# HELP hikaricp_connections_idle Idle connections&#10;# TYPE hikaricp_connections_idle gauge&#10;hikaricp_connections_idle{pool=&quot;HikariPool-1&quot;,} 10.0&#10;" />
+          <option name="url" value="/actuator/prometheus" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -170,20 +369,20 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator/metrics" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:7,&quot;name&quot;:&quot;Raymundo Boehm V&quot;,&quot;email&quot;:&quot;dorsey.rolfson@example.com&quot;,&quot;age&quot;:37},{&quot;id&quot;:8,&quot;name&quot;:&quot;Stanford Feeney&quot;,&quot;email&quot;:&quot;daria.ziemann@example.com&quot;,&quot;age&quot;:78},{&quot;id&quot;:9,&quot;name&quot;:&quot;Adan Greenfelder&quot;,&quot;email&quot;:&quot;elisabeth.bins@example.com&quot;,&quot;age&quot;:75},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}]" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator/metrics&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;names&quot;:[&quot;application.ready.time&quot;,&quot;application.started.time&quot;,&quot;disk.free&quot;,&quot;disk.total&quot;,&quot;executor.active&quot;,&quot;executor.completed&quot;,&quot;executor.pool.core&quot;,&quot;executor.pool.max&quot;,&quot;executor.pool.size&quot;,&quot;executor.queue.remaining&quot;,&quot;executor.queued&quot;,&quot;hikaricp.connections&quot;,&quot;hikaricp.connections.acquire&quot;,&quot;hikaricp.connections.active&quot;,&quot;hikaricp.connections.creation&quot;,&quot;hikaricp.connections.idle&quot;,&quot;hikaricp.connections.max&quot;,&quot;hikaricp.connections.min&quot;,&quot;hikaricp.connections.pending&quot;,&quot;hikaricp.connections.timeout&quot;,&quot;hikaricp.connections.usage&quot;,&quot;http.server.requests&quot;,&quot;http.server.requests.active&quot;,&quot;jdbc.connections.active&quot;,&quot;jdbc.connections.idle&quot;,&quot;jdbc.connections.max&quot;,&quot;jdbc.connections.min&quot;,&quot;jvm.buffer.count&quot;,&quot;jvm.buffer.memory.used&quot;,&quot;jvm.buffer.total.capacity&quot;,&quot;jvm.classes.loaded&quot;,&quot;jvm.classes.unloaded&quot;,&quot;jvm.compilation.time&quot;,&quot;jvm.gc.live.data.size&quot;,&quot;jvm.gc.max.data.size&quot;,&quot;jvm.gc.memory.allocated&quot;,&quot;jvm.gc.memory.promoted&quot;,&quot;jvm.gc.overhead&quot;,&quot;jvm.gc.pause&quot;,&quot;jvm.info&quot;,&quot;jvm.memory.committed&quot;,&quot;jvm.memory.max&quot;,&quot;jvm.memory.usage.after.gc&quot;,&quot;jvm.memory.used&quot;,&quot;jvm.threads.daemon&quot;,&quot;jvm.threads.live&quot;,&quot;jvm.threads.peak&quot;,&quot;jvm.threads.started&quot;,&quot;jvm.threads.states&quot;,&quot;logback.events&quot;,&quot;process.cpu.usage&quot;,&quot;process.start.time&quot;,&quot;process.uptime&quot;,&quot;spring.data.repository.invocations&quot;,&quot;system.cpu.count&quot;,&quot;system.cpu.usage&quot;,&quot;tomcat.sessions.active.current&quot;,&quot;tomcat.sessions.active.max&quot;,&quot;tomcat.sessions.alive.max&quot;,&quot;tomcat.sessions.created&quot;,&quot;tomcat.sessions.expired&quot;,&quot;tomcat.sessions.rejected&quot;]}" />
+          <option name="url" value="/actuator/metrics" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -195,158 +394,20 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:7,&quot;name&quot;:&quot;Raymundo Boehm V&quot;,&quot;email&quot;:&quot;dorsey.rolfson@example.com&quot;,&quot;age&quot;:37},{&quot;id&quot;:8,&quot;name&quot;:&quot;Stanford Feeney&quot;,&quot;email&quot;:&quot;daria.ziemann@example.com&quot;,&quot;age&quot;:78},{&quot;id&quot;:9,&quot;name&quot;:&quot;Adan Greenfelder&quot;,&quot;email&quot;:&quot;elisabeth.bins@example.com&quot;,&quot;age&quot;:75},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}]" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false},&quot;prometheus&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/prometheus&quot;,&quot;templated&quot;:false},&quot;metrics&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/metrics&quot;,&quot;templated&quot;:false},&quot;metrics-requiredMetricName&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/metrics/{requiredMetricName}&quot;,&quot;templated&quot;:true}}}" />
+          <option name="url" value="/actuator" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;name&quot;: &quot;Daniela Bosco&quot;,&#10;    &quot;email&quot;: &quot;willian.wintheiser@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_n09df&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_7wauw&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/6" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/6&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 74&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="url" value="/customers/6" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;id&quot;: 6,&#10;    &quot;name&quot;: &quot;Daniela Bosco&quot;,&#10;    &quot;email&quot;: &quot;willian.wintheiser@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_or7ix&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_2q3jj&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/6" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/6&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 81&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;id&quot;:6,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="response" value="Read timed out" />
-          <option name="url" value="/customers/6" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;id&quot;: 6,&#10;    &quot;name&quot;: &quot;Daniela Bosco&quot;,&#10;    &quot;email&quot;: &quot;willian.wintheiser@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_or7ix&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_2q3jj&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/6" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/6&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 81&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;id&quot;:6,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-19T16:58:58.361+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;no data changes found&quot;,&quot;path&quot;:&quot;/customers/6&quot;}" />
-          <option name="url" value="/customers/6" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;name&quot;: &quot;Daniela Bosco&quot;,&#10;    &quot;email&quot;: &quot;willian.wintheiser@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_or7ix&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_2q3jj&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/6" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/6&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 74&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-19T16:57:30.479+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;no data changes found&quot;,&quot;path&quot;:&quot;/customers/6&quot;}" />
-          <option name="url" value="/customers/6" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;name&quot;: &quot;Daniela Bosco&quot;,&#10;    &quot;email&quot;: &quot;willian.wintheiser@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_or7ix&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_2q3jj&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/6" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/6&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 74&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-19T16:57:07.043+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;no data changes found&quot;,&quot;path&quot;:&quot;/customers/6&quot;}" />
-          <option name="url" value="/customers/6" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -358,76 +419,20 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98},{&quot;id&quot;:6,&quot;name&quot;:&quot;Daniela Bosco&quot;,&quot;email&quot;:&quot;willian.wintheiser@example.com&quot;,&quot;age&quot;:94}]" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;name&quot;: &quot;Jayme Wolf&quot;,&#10;    &quot;email&quot;: &quot;clayton.sawayn@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_ulf9v&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_z0wse&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 67&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-19T16:54:53.917+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;Required path variable 'id' is not present.&quot;,&quot;path&quot;:&quot;/customers/&quot;}" />
-          <option name="url" value="/customers/" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="updateCustomer" />
-          <option name="methodType" value="PUT" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="  {&#10;    &quot;name&quot;: &quot;Jayme Wolf&quot;,&#10;    &quot;email&quot;: &quot;clayton.sawayn@example.com&quot;,&#10;    &quot;age&quot;: 33&#10;  }" />
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_ulf9v&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_z0wse&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
-              <option name="method" value="updateCustomer" />
-              <option name="methodDescription" value="updateCustomer" />
-              <option name="methodType" value="PUT" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 67&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:33}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-05-19T16:54:25.494+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;Required path variable 'id' is not present.&quot;,&quot;path&quot;:&quot;/customers/&quot;}" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false}}}" />
+          <option name="url" value="/actuator" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
+          <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
@@ -439,89 +444,64 @@
               <option name="originUrl" value="/customers/" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/" />
+              <option name="url" value="/actuator" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="[{&quot;id&quot;:2,&quot;name&quot;:&quot;Jayme Wolf&quot;,&quot;email&quot;:&quot;clayton.sawayn@example.com&quot;,&quot;age&quot;:98}]" />
-          <option name="url" value="/customers/" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false}}}" />
+          <option name="url" value="/actuator" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="deleteCustomerById" />
-          <option name="methodType" value="DELETE" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
               <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="deleteCustomerById" />
-              <option name="methodDescription" value="deleteCustomerById" />
-              <option name="methodType" value="DELETE" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/5" />
+              <option name="url" value="/actuator" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/5&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="url" value="/customers/5" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false}}}" />
+          <option name="url" value="/actuator" />
         </ResponseHistory>
         <ResponseHistory>
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="deleteCustomerById" />
-          <option name="methodType" value="DELETE" />
+          <option name="enableProject" value="lesson11" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
               <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="deleteCustomerById" />
-              <option name="methodDescription" value="deleteCustomerById" />
-              <option name="methodType" value="DELETE" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="originUrl" value="/customers/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/4" />
+              <option name="url" value="/actuator" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/4&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="url" value="/customers/4" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson10" />
-          <option name="method" value="deleteCustomerById" />
-          <option name="methodType" value="DELETE" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="deleteCustomerById" />
-              <option name="methodDescription" value="deleteCustomerById" />
-              <option name="methodType" value="DELETE" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/{id}" />
-              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/customers/3" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/3&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="url" value="/customers/3" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true}}}" />
+          <option name="url" value="/actuator" />
         </ResponseHistory>
       </list>
     </option>
