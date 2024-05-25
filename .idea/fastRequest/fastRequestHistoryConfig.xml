@@ -7,6 +7,105 @@
           <option name="className" value="ru.gb.controller.CustomerController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson12" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Mr. Stacy Bins&quot;,&quot;email&quot;:&quot;alex.ward@example.com&quot;,&quot;password&quot;:&quot;4nvgy5m08r2613c&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Quinton Abshire&quot;,&quot;email&quot;:&quot;ramon.kerluke@example.com&quot;,&quot;password&quot;:&quot;445du5zdh&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Wilburn Koepp I&quot;,&quot;email&quot;:&quot;janella.koss@example.com&quot;,&quot;password&quot;:&quot;e3y38cc148ek7o7&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Claud Brakus&quot;,&quot;email&quot;:&quot;sara.runte@example.com&quot;,&quot;password&quot;:&quot;605xhj5zk21e76&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Dr. Clarice Cronin&quot;,&quot;email&quot;:&quot;gus.grant@example.com&quot;,&quot;password&quot;:&quot;r4210s35zg3l2430&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Louann Johnston&quot;,&quot;email&quot;:&quot;austin.hermiston@example.com&quot;,&quot;password&quot;:&quot;2uj0v6j56io24&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Mrs. Jeff Stamm&quot;,&quot;email&quot;:&quot;shawn.reichel@example.com&quot;,&quot;password&quot;:&quot;03s940t8g2sc2&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Fritz Bogisich&quot;,&quot;email&quot;:&quot;raymundo.kreiger@example.com&quot;,&quot;password&quot;:&quot;0a39rc58xn0kehc&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Mrs. Huey Cremin&quot;,&quot;email&quot;:&quot;mallory.bogisich@example.com&quot;,&quot;password&quot;:&quot;k210f6ac&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Nikki Gutmann&quot;,&quot;email&quot;:&quot;jermaine.wolff@example.com&quot;,&quot;password&quot;:&quot;a6u604bv51&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson12" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="Read timed out" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson12" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Mrs. Gilberto Little&quot;,&quot;email&quot;:&quot;rufus.cremin@example.com&quot;,&quot;password&quot;:&quot;4df1y6x619&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Jeffry Schultz V&quot;,&quot;email&quot;:&quot;kasey.swaniawski@example.com&quot;,&quot;password&quot;:&quot;8xfm93apj23&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Monroe Renner&quot;,&quot;email&quot;:&quot;les.blick@example.com&quot;,&quot;password&quot;:&quot;wd41dum9xk99h4&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Kendall Dooley&quot;,&quot;email&quot;:&quot;denver.heidenreich@example.com&quot;,&quot;password&quot;:&quot;gmxno64vkpb&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Linn Simonis III&quot;,&quot;email&quot;:&quot;rhoda.shanahan@example.com&quot;,&quot;password&quot;:&quot;fgjum3ut7g&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Sharyl Kilback&quot;,&quot;email&quot;:&quot;shad.fay@example.com&quot;,&quot;password&quot;:&quot;vxk71qiqu02531j&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Aldo Stanton&quot;,&quot;email&quot;:&quot;nicolle.rogahn@example.com&quot;,&quot;password&quot;:&quot;ha84s4apm&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Renae Russel&quot;,&quot;email&quot;:&quot;frederic.koch@example.com&quot;,&quot;password&quot;:&quot;cl61f9r6q&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Ms. Eric Ruecker&quot;,&quot;email&quot;:&quot;garth.olson@example.com&quot;,&quot;password&quot;:&quot;x1g0ci68bj87g104&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Marcelene Schumm DVM&quot;,&quot;email&quot;:&quot;carmen.jaskolski@example.com&quot;,&quot;password&quot;:&quot;gx6q0tdkl6sh1c8&quot;}]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="lesson12" />
+          <option name="method" value="getAllCustomers" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="ru.gb.controller.CustomerController" />
+              <option name="method" value="getAllCustomers" />
+              <option name="methodDescription" value="getAllCustomers" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/customers/get_all" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+              <option name="url" value="/customers/get_all" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/customers/get_all&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[]" />
+          <option name="url" value="/customers/get_all" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="ru.gb.controller.CustomerController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
           <option name="enableProject" value="lesson11" />
           <option name="method" value="getAllCustomers" />
           <option name="methodType" value="GET" />
@@ -401,106 +500,6 @@
           </option>
           <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
           <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false},&quot;prometheus&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/prometheus&quot;,&quot;templated&quot;:false},&quot;metrics&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/metrics&quot;,&quot;templated&quot;:false},&quot;metrics-requiredMetricName&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/metrics/{requiredMetricName}&quot;,&quot;templated&quot;:true}}}" />
-          <option name="url" value="/actuator" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson11" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/actuator" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false}}}" />
-          <option name="url" value="/actuator" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson11" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/actuator" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false}}}" />
-          <option name="url" value="/actuator" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson11" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/actuator" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false}}}" />
-          <option name="url" value="/actuator" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="ru.gb.controller.CustomerController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="lesson11" />
-          <option name="method" value="getAllCustomers" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="ru.gb.controller.CustomerController" />
-              <option name="method" value="getAllCustomers" />
-              <option name="methodDescription" value="getAllCustomers" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/customers/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
-              <option name="url" value="/actuator" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/actuator&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.5.1&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator&quot;,&quot;templated&quot;:false},&quot;health&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health&quot;,&quot;templated&quot;:false},&quot;health-path&quot;:{&quot;href&quot;:&quot;http://localhost:8080/actuator/health/{*path}&quot;,&quot;templated&quot;:true}}}" />
           <option name="url" value="/actuator" />
         </ResponseHistory>
       </list>

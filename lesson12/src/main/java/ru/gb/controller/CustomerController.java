@@ -6,18 +6,29 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.gb.domain.Customer;
 import ru.gb.service.CustomerService;
+import ru.gb.service.FileGateway;
 
 import java.util.List;
+import java.util.Objects;
 
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/customers")
 public class CustomerController {
     private final CustomerService customerService;
+    private final FileGateway fileGateway;
 
     @GetMapping("/get_all")
     public ResponseEntity<List<Customer>> getAllCustomers() {
-        return new ResponseEntity<>(customerService.getAllCustomers(), HttpStatus.OK);
+        ResponseEntity<List<Customer>> responseEntity =
+                new ResponseEntity<>(customerService.getAllCustomers(), HttpStatus.OK);
+
+        fileGateway.writeToFile(
+                "get-all-users.txt",
+                "clients count in database: %d"
+                        .formatted((long) Objects.requireNonNull(responseEntity.getBody()).size()));
+
+        return responseEntity;
     }
 
     @GetMapping("/{id}")

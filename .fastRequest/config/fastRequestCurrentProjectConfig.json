@@ -58,6 +58,15 @@
 				}
 			],
 			"name":"lesson11"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"lesson12"
 		}
 	],
 	"envList":[
@@ -75,7 +84,8 @@
 		"api-gateway",
 		"testing-solution",
 		"lesson10",
-		"lesson11"
+		"lesson11",
+		"lesson12"
 	],
 	"syncModel":{
 		"branch":"master",

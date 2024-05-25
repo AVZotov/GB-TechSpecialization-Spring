@@ -4,7 +4,7 @@
     <option name="className" value="ru.gb.controller.CustomerController" />
     <option name="filePath" value="" />
     <option name="method" value="getAllCustomers" />
-    <option name="module" value="lesson11" />
+    <option name="module" value="lesson12" />
     <option name="originUrl" value="/customers/get_all" />
     <option name="responseParamMap">
       <map>
