@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lesson10 (2)" />
         <module name="lesson11" />
+        <module name="lesson12" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -56,6 +57,7 @@
       <module name="lesson10" options="-parameters" />
       <module name="lesson10 (2)" options="-parameters" />
       <module name="lesson11" options="-parameters" />
+      <module name="lesson12" options="-parameters" />
       <module name="testing" options="-parameters" />
       <module name="testing-exercise" options="-parameters" />
       <module name="testing-solution" options="-parameters" />
